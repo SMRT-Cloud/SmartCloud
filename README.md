@@ -23,5 +23,6 @@ reward ratio of staking to masternodes is 30:70.
 
 More information at [smrtc.io](http://www.smrtc.io) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=2923976)
 
-
+MN Port 9887
+RPC Port 9888
 

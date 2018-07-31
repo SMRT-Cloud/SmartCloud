@@ -128,7 +128,7 @@ BOOST_AUTO_TEST_CASE(sha256_testvectors) {
                "7406e8de7d6e4fffc573daef05aefb8806e7790f55eab5576f31349743cca743");
     TestSHA256(std::string(1000000, 'a'),
                "cdc76e5c9914fb9281a1c7e284d73e67f1809a48a497200e046d39ccc7112cd0");
-    TestSHA256(test1, "a316d55510b49662420f49d145d42fb83f31ef8dc016aa4e32df049991a91e26");
+    TestSHA256(test1, "a316d59887b49662420f49d145d42fb83f31ef8dc016aa4e32df049991a91e26");
 }
 
 BOOST_AUTO_TEST_CASE(sha512_testvectors) {
