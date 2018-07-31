@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: poseidond.service
-Upstart: poseidond.conf
-OpenRC:  poseidond.openrc
-         poseidond.openrcconf
-CentOS:  poseidond.init
+SystemD: smartcloudd.service
+Upstart: smartcloudd.conf
+OpenRC:  smartcloudd.openrc
+         smartcloudd.openrcconf
+CentOS:  smartcloudd.init
 
 have been made available to assist packagers in creating node packages here.
 

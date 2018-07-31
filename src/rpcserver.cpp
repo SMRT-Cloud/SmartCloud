@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Poseidon developers
+// Copyright (c) 2017 The SmartCloud developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Poseidon server.");
+            "\nStop SmartCloud server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Poseidon server stopping";
+    return "SmartCloud server stopping";
 }
 
 
@@ -318,36 +318,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Poseidon features */
-        {"poseidon", "masternode", &masternode, true, true, false},
-        {"poseidon", "listmasternodes", &listmasternodes, true, true, false},
-        {"poseidon", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"poseidon", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"poseidon", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"poseidon", "masternodedebug", &masternodedebug, true, true, false},
-        {"poseidon", "startmasternode", &startmasternode, true, true, false},
-        {"poseidon", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"poseidon", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"poseidon", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"poseidon", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"poseidon", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"poseidon", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"poseidon", "mnbudget", &mnbudget, true, true, false},
-        {"poseidon", "preparebudget", &preparebudget, true, true, false},
-        {"poseidon", "submitbudget", &submitbudget, true, true, false},
-        {"poseidon", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"poseidon", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"poseidon", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"poseidon", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"poseidon", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"poseidon", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"poseidon", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"poseidon", "checkbudgets", &checkbudgets, true, true, false},
-        {"poseidon", "mnsync", &mnsync, true, true, false},
-        {"poseidon", "spork", &spork, true, true, false},
-        {"poseidon", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* SmartCloud features */
+        {"smartcloud", "masternode", &masternode, true, true, false},
+        {"smartcloud", "listmasternodes", &listmasternodes, true, true, false},
+        {"smartcloud", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"smartcloud", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"smartcloud", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"smartcloud", "masternodedebug", &masternodedebug, true, true, false},
+        {"smartcloud", "startmasternode", &startmasternode, true, true, false},
+        {"smartcloud", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"smartcloud", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"smartcloud", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"smartcloud", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"smartcloud", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"smartcloud", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"smartcloud", "mnbudget", &mnbudget, true, true, false},
+        {"smartcloud", "preparebudget", &preparebudget, true, true, false},
+        {"smartcloud", "submitbudget", &submitbudget, true, true, false},
+        {"smartcloud", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"smartcloud", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"smartcloud", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"smartcloud", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"smartcloud", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"smartcloud", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"smartcloud", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"smartcloud", "checkbudgets", &checkbudgets, true, true, false},
+        {"smartcloud", "mnsync", &mnsync, true, true, false},
+        {"smartcloud", "spork", &spork, true, true, false},
+        {"smartcloud", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"poseidon", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"smartcloud", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -626,16 +626,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use poseidond, or the -server option to poseidon-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use smartcloudd, or the -server option to smartcloud-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=poseidonrpc\n"
+                                               "rpcuser=smartcloudrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Poseidon Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"SmartCloud Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1086,7 +1086,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> poseidon-cli " + methodname + " " + args + "\n";
+    return "> smartcloud-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

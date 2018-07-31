@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Poseidon RPC command dispatcher.
+ * SmartCloud RPC command dispatcher.
  */
 class CRPCTable
 {

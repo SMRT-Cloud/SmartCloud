@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Poseidonadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw SmartCloudadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw Poseidonadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw SmartCloudadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw POSQs stelen.</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw SMRTCs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW POSQ VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW SMRTC VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een Poseidon adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een SmartCloud adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Het Poseidon adres om het bericht met te ondertekenen</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>Het SmartCloud adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Poseidon adres bezit</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het SmartCloud adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Het Poseidon adres waarmee het bericht was ondertekend</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>Het SmartCloud adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Poseidon adres</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde SmartCloud adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kern</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kern</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>Verstuur munten naar een Poseidon adres</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>Verstuur munten naar een SmartCloud adres</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en Poseidon: URI's)</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>Vraag betaling aan (genereert QR-codes en SmartCloud: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Privacy</translation>
     </message>
     <message>
-        <source>Privacy Action for zPOSQ and Obfuscation</source>
-        <translation>Privacy Actie voor zPOSQ en verduistering</translation>
+        <source>Privacy Action for zSMRTC and Obfuscation</source>
+        <translation>Privacy Actie voor zSMRTC en verduistering</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>&amp;Over Poseidon Kern</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>&amp;Over SmartCloud Kern</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>Toon informatie over Poseidon Kern</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>Toon informatie over SmartCloud Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>Wijzig Poseidon configuratie opties</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>Wijzig SmartCloud configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Poseidon adressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw SmartCloud adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde Poseidon adressen</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde SmartCloud adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a Poseidon: URI or payment request</source>
-        <translation>Open een Poseidon: URI of betaalverzoek</translation>
+        <source>Open a SmartCloud: URI or payment request</source>
+        <translation>Open een SmartCloud: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the Poseidon Core help message to get a list with possible Poseidon command-line options</source>
-        <translation>Toon het Poseidon Core help bericht om een ​​lijst te krijgen met mogelijke Poseidon command line opties</translation>
+        <source>Show the SmartCloud Core help message to get a list with possible SmartCloud command-line options</source>
+        <translation>Toon het SmartCloud Core help bericht om een ​​lijst te krijgen met mogelijke SmartCloud command line opties</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Poseidon Core client</translation>
+        <source>SmartCloud Core client</source>
+        <translation>SmartCloud Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Poseidon network</source>
-        <translation><numerusform>%n actieve verbinding(en) naar het Poseidon netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het Poseidon netwerk</numerusform></translation>
+        <source>%n active connection(s) to SmartCloud network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het SmartCloud netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het SmartCloud netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -849,8 +849,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (poseidon.conf).</source>
-        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (poseidon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (smartcloud.conf).</source>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (smartcloud.conf).</translation>
     </message>
 </context>
 <context>
@@ -1134,8 +1134,8 @@ MultiSend: %1</translation>
         <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Poseidon address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig Poseidon adres.</translation>
+        <source>The entered address "%1" is not a valid SmartCloud address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig SmartCloud adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1180,16 +1180,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kern</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Poseidon Core</source>
-        <translation>Over Poseidon Core</translation>
+        <source>About SmartCloud Core</source>
+        <translation>Over SmartCloud Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1227,16 +1227,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Poseidon Core.</source>
-        <translation>Welkom bij Poseidon Core</translation>
+        <source>Welcome to SmartCloud Core.</source>
+        <translation>Welkom bij SmartCloud Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Poseidon Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Poseidon Core zijn gegevens opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where SmartCloud Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar SmartCloud Core zijn gegevens opslaat.</translation>
     </message>
     <message>
-        <source>Poseidon Core will download and store a copy of the Poseidon block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Poseidon Core zal een kopie van de Poseidon blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <source>SmartCloud Core will download and store a copy of the SmartCloud block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SmartCloud Core zal een kopie van de SmartCloud blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1247,8 +1247,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kern</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kern</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1389,12 +1389,12 @@ MultiSend: %1</translation>
         <translation>Vul het verzendadres in</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Poseidon addresses after it matures.
-To Add: enter percentage to give and Poseidon address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SmartCloud addresses after it matures.
+To Add: enter percentage to give and SmartCloud address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere Poseidon adressen nadat het volwassen is. 
-Toevoegen: voer percentage in om te geven en Poseidon adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere SmartCloud adressen nadat het volwassen is. 
+Toevoegen: voer percentage in om te geven en SmartCloud adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
 MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translation>
     </message>
@@ -1531,48 +1531,48 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Selecteer de privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SMRTC</source>
+        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 SMRTC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SMRTC</source>
+        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 SMRTC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Gebruik 16 aparte masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 POSQ om 10000 POSQ te anonimiseren</translation>
+        <source>This option is the quickest and will cost about ~0.025 SMRTC to anonymize 10000 SMRTC</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0,025 SMRTC om 10000 SMRTC te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 POSQ om 10000 POSQ te anonimiseren</translation>
+        <source>This option is moderately fast and will cost about 0.05 SMRTC to anonymize 10000 SMRTC</source>
+        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 SMRTC om 10000 SMRTC te anonimiseren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>je anonimiseert 0,1 POSQ per 10000 POSQ.</translation>
+        <source>0.1 SMRTC per 10000 SMRTC you anonymize.</source>
+        <translation>je anonimiseert 0,1 SMRTC per 10000 SMRTC.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Verduistering configuratie</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Poseidon te openen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van SmartCloud te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Poseidon te openen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van SmartCloud te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van Poseidon te openen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van SmartCloud te openen.</translation>
     </message>
 </context>
 <context>
@@ -1633,8 +1633,8 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the Poseidon client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Poseidon client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the SmartCloud client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de SmartCloud client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1653,12 +1653,12 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Poseidon after logging in to the system.</source>
-        <translation>Poseidon automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start SmartCloud after logging in to the system.</source>
+        <translation>SmartCloud automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start Poseidon on system login</source>
-        <translation>&amp;Poseidon starten bij systeemlogin</translation>
+        <source>&amp;Start SmartCloud on system login</source>
+        <translation>&amp;SmartCloud starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1685,38 +1685,38 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Poseidon.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van Poseidon.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SmartCloud.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van SmartCloud.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/poseidon-project/poseidon-project-translations</source>
+https://www.transifex.com/smartcloud-project/smartcloud-project-translations</source>
         <translation>Taal ontbreekt of vertaling onvolledig? Help om bij te dragen aan vertalingen:
-https://www.transifex.com/poseidon-project/poseidon-project-translations</translation>
+https://www.transifex.com/smartcloud-project/smartcloud-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende POSQ die automatisch wordt omgezet naar zPOSQ via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming SMRTC which get automatically converted to zSMRTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende SMRTC die automatisch wordt omgezet naar zSMRTC via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPOSQ</source>
-        <translation>Percentage autominted zPOSQ</translation>
+        <source>Percentage of autominted zSMRTC</source>
+        <translation>Percentage autominted zSMRTC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough POSQ for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg POSQ voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SMRTC for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg SMRTC voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zPOSQ Denomination</source>
-        <translation>Gewenste Automint zPOSQ denominatie</translation>
+        <source>Preferred Automint zSMRTC Denomination</source>
+        <translation>Gewenste Automint zSMRTC denominatie</translation>
     </message>
     <message>
-        <source>Connect to the Poseidon network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het Poseidon netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the SmartCloud network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het SmartCloud netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1846,8 +1846,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>POSQ Balances</source>
-        <translation>POSQ Saldi</translation>
+        <source>SMRTC Balances</source>
+        <translation>SMRTC Saldi</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1874,8 +1874,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Poseidon netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het SmartCloud netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1914,12 +1914,12 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Gecombineerde Saldi (inclusief onvolwassen munten)</translation>
     </message>
     <message>
-        <source>POSQ:</source>
-        <translation>POSQ:</translation>
+        <source>SMRTC:</source>
+        <translation>SMRTC:</translation>
     </message>
     <message>
-        <source>zPOSQ:</source>
-        <translation>zPOSQ:</translation>
+        <source>zSMRTC:</source>
+        <translation>zSMRTC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1961,12 +1961,12 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Ongeldig betalingsadres %1</translation>
     </message>
     <message>
-        <source>Cannot start poseidon: click-to-pay handler</source>
-        <translation>Kan poseidon niet starten: click-to-pay handler</translation>
+        <source>Cannot start smartcloud: click-to-pay handler</source>
+        <translation>Kan smartcloud niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Poseidon address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig Poseidon adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SmartCloud address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig SmartCloud adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2047,20 +2047,20 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>POSQ which were anonymized via Zerocin Protocol</source>
-        <translation>POSQ die via het Zerocin Protocol geanonimiseerd werden</translation>
+        <source>SMRTC which were anonymized via Zerocin Protocol</source>
+        <translation>SMRTC die via het Zerocin Protocol geanonimiseerd werden</translation>
     </message>
     <message>
-        <source>Zerocoin POSQ (zPOSQ)</source>
-        <translation>Zerocoin POSQ (zPOSQ)</translation>
+        <source>Zerocoin SMRTC (zSMRTC)</source>
+        <translation>Zerocoin SMRTC (zSMRTC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Acties:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het Poseidon netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het SmartCloud netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
@@ -2075,16 +2075,16 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zPOSQ</source>
-        <translation>zPOSQ</translation>
+        <source>zSMRTC</source>
+        <translation>zSMRTC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Beschikbaar voor minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 SMRTC</source>
+        <translation>0.000 000 00 SMRTC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2143,8 +2143,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>0 zPOSQ</source>
-        <translation>0 zPOSQ</translation>
+        <source>0 zSMRTC</source>
+        <translation>0 zSMRTC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The Poseidon address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het Poseidon adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <source>The SmartCloud address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Het SmartCloud adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2363,8 +2363,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Poseidon network yet.</source>
-        <translation>Zerocoin functionaliteit is nog niet ingeschakeld op het Poseidon netwerk.</translation>
+        <source>Zerocoin functionality is not enabled on the SmartCloud network yet.</source>
+        <translation>Zerocoin functionaliteit is nog niet ingeschakeld op het SmartCloud netwerk.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2383,8 +2383,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Succesvol gemint</translation>
     </message>
     <message>
-        <source> zPOSQ in </source>
-        <translation> zPOSQ in </translation>
+        <source> zSMRTC in </source>
+        <translation> zSMRTC in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2417,8 +2417,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
     </message>
     <message>
-        <source>Invalid Poseidon Address</source>
-        <translation>Ongeldig Poseidon addres</translation>
+        <source>Invalid SmartCloud Address</source>
+        <translation>Ongeldig SmartCloud addres</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2509,8 +2509,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a Poseidon address (e.g. %1)</source>
-        <translation>Voer een Poseidon adres in (b.v. %1)</translation>
+        <source>Enter a SmartCloud address (e.g. %1)</source>
+        <translation>Voer een SmartCloud adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2647,8 +2647,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the Poseidon debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Poseidon debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the SmartCloud debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het SmartCloud debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2815,8 +2815,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the Poseidon RPC console.</source>
-        <translation>Welkom bij de Poseidon RPC console.</translation>
+        <source>Welcome to the SmartCloud RPC console.</source>
+        <translation>Welkom bij de SmartCloud RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2886,12 +2886,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Poseidon network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het Poseidon netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SmartCloud network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het SmartCloud netwerk.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Poseidon network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het Poseidon netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SmartCloud network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het SmartCloud netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3115,8 +3115,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 SMRTC</source>
+        <translation>0 SMRTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3167,16 +3167,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPOSQs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPOSQ's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uPOSQ's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSMRTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMRTCs in fee,&lt;br /&gt;while "at least" pays 1000 uSMRTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uSMRTCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uSMRTC's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uSMRTC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPOSQs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPOSQ's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uPOSQ's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSMRTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMRTCs in fee,&lt;br /&gt;while "total at least" pays 1000 uSMRTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uSMRTCs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uSMRTC's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uSMRTC's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Poseidon transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar Poseidon transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SmartCloud transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar SmartCloud transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3223,8 +3223,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized POSQ</source>
-        <translation>Geanonimiseerde POSQ</translation>
+        <source>Anonymized SMRTC</source>
+        <translation>Geanonimiseerde SMRTC</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3283,8 +3283,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>anonieme financiën</translation>
     </message>
     <message>
-        <source>Warning: Invalid Poseidon address</source>
-        <translation>Waarschuwing: Ongeldig Poseidon adres</translation>
+        <source>Warning: Invalid SmartCloud address</source>
+        <translation>Waarschuwing: Ongeldig SmartCloud adres</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3390,8 +3390,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The Poseidon address to send the payment to</source>
-        <translation>Het Poseidon adres om de betaling naar te verzenden</translation>
+        <source>The SmartCloud address to send the payment to</source>
+        <translation>Het SmartCloud adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3430,8 +3430,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Poseidon: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Poseidon network.</source>
-        <translation>Een bericht dat is gehecht aan de Poseidon: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het Poseidon netwerk.</translation>
+        <source>A message that was attached to the SmartCloud: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SmartCloud network.</source>
+        <translation>Een bericht dat is gehecht aan de SmartCloud: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het SmartCloud netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3457,8 +3457,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Poseidon Core is shutting down...</source>
-        <translation>Poseidon Core is aan het afsluiten...</translation>
+        <source>SmartCloud Core is shutting down...</source>
+        <translation>SmartCloud Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3480,8 +3480,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Het Poseidon adres om het bericht met te ondertekenen</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>Het SmartCloud adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3512,16 +3512,16 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het Poseidon adres bezit</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het SmartCloud adres bezit</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Het Poseidon adres waarmee het bericht was ondertekend</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>Het SmartCloud adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde Poseidon adres</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde SmartCloud adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3607,8 +3607,8 @@ Wees alsjeblieft geduldig...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kern</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3623,8 +3623,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The Poseidon Core developers</source>
-        <translation>De Poseidon Kernontwikkelaars</translation>
+        <source>The SmartCloud Core developers</source>
+        <translation>De SmartCloud Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4211,8 +4211,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 POSQ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SMRTC.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 SMRTC.</translation>
     </message>
 </context>
 <context>
@@ -4282,7 +4282,7 @@ Wees alsjeblieft geduldig...</translation>
     </message>
 </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = houd tx meta data, bijvoorbeeld account eigenaar en betalingsverzoek informatie, 2 = drop tx meta data)</translation>
@@ -4312,8 +4312,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Poseidon Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Poseidon Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. SmartCloud Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. SmartCloud Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4332,8 +4332,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Verwijder alle portemonnee transacties en herstel alleen die delen van de blockchain via -rescan bij opstarten</translation>
     </message>
     <message>
-        <source>Disable all Poseidon specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle Poseidon specifieke functionaliteit uit (Masternodes, Verduistering, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
+        <source>Disable all SmartCloud specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Schakel alle SmartCloud specifieke functionaliteit uit (Masternodes, Verduistering, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4372,12 +4372,12 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in POSQ/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in SMRTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in SMRTC/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in POSQ/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in SMRTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in SMRTC/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4476,44 +4476,44 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use poseidond, or the -server option to poseidon-qt, you must set an rpcpassword in the configuration file:
+        <source>To use smartcloudd, or the -server option to smartcloud-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=poseidonrpc
+rpcuser=smartcloudrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Poseidon Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "SmartCloud Alert" admin@foo.com
 </source>
-        <translation>Om poseidond of de -server optie om poseidon-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
+        <translation>Om smartcloudd of de -server optie om smartcloud-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
 %s
 Het is aan te raden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=poseidonrpc
+rpcuser=smartcloudrpc
 rpcpassword=%s
 (je hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en het wachtwoord MOETEN NIET hetzelfde zijn.
 Als het bestand niet bestaat, creëer het dan met owner-readable-only bestandsrechten.
 Het is ook aan te raden om alertnotify in te stellen, zodat je van problemen op de hoogte wordt gebracht;
-bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
+bijvoorbeeld: alertnotify = echo %%s | mail -s "SmartCloud Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Poseidon Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. Poseidon Core loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. SmartCloud Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. SmartCloud Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 POSQ.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 SMRTC.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 SMRTC.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 POSQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SMRTC.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 SMRTC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4528,8 +4528,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Poseidon Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Poseidon Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SmartCloud Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt SmartCloud Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4684,8 +4684,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Poseidon Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Poseidon Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The SmartCloud Core Developers</source>
+        <translation>Copyright (C) 2015-%i The SmartCloud Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4764,8 +4764,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Poseidon Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Poseidon Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SmartCloud Core</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van SmartCloud Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4816,8 +4816,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in POSQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in POSQ/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in SMRTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in SMRTC/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4876,8 +4876,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Poseidon Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. Poseidon Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. SmartCloud Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. SmartCloud Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5552,8 +5552,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s "Poseidon Alert" admin@foo.com
         <translation>Portemonnee is vergrendeld.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Poseidon Core to complete</source>
-        <translation>Wallet moest worden herschreven: start Poseidon Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart SmartCloud Core to complete</source>
+        <translation>Wallet moest worden herschreven: start SmartCloud Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

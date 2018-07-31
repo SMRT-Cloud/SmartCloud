@@ -1,6 +1,6 @@
 [Protocol]
-exec=poseidon-qt '%u'
-protocol=poseidon
+exec=smartcloud-qt '%u'
+protocol=smartcloud
 input=none
 output=none
 helper=true

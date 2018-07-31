@@ -24,11 +24,11 @@ Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
     git clone https://github.com/eastcoastcrypto/gitian.sigs.git
-    git clone https://github.com/eastcoastcrypto/poseidon-detached-sigs.git
+    git clone https://github.com/eastcoastcrypto/smartcloud-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/eastcoastcrypto/poseidon.git
+    git clone https://github.com/eastcoastcrypto/smartcloud.git
 
-### Poseidon maintainers/release engineers, suggestion for writing release notes
+### SmartCloud maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -49,7 +49,7 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./poseidon
+    pushd ./smartcloud
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -83,7 +83,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../poseidon/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../smartcloud/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -91,55 +91,55 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url poseidon=/path/to/poseidon,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url smartcloud=/path/to/smartcloud,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Poseidon Core for Linux, Windows, and OS X:
+### Build and sign SmartCloud Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit poseidon=v${VERSION} ../poseidon/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/poseidon-*.tar.gz build/out/src/poseidon-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit smartcloud=v${VERSION} ../smartcloud/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/smartcloud-*.tar.gz build/out/src/smartcloud-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit poseidon=v${VERSION} ../poseidon/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/poseidon-*-win-unsigned.tar.gz inputs/poseidon-win-unsigned.tar.gz
-    mv build/out/poseidon-*.zip build/out/poseidon-*.exe ../
+    ./bin/gbuild --memory 3000 --commit smartcloud=v${VERSION} ../smartcloud/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/smartcloud-*-win-unsigned.tar.gz inputs/smartcloud-win-unsigned.tar.gz
+    mv build/out/smartcloud-*.zip build/out/smartcloud-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit poseidon=v${VERSION} ../poseidon/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/poseidon-*-osx-unsigned.tar.gz inputs/poseidon-osx-unsigned.tar.gz
-    mv build/out/poseidon-*.tar.gz build/out/poseidon-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit smartcloud=v${VERSION} ../smartcloud/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/smartcloud-*-osx-unsigned.tar.gz inputs/smartcloud-osx-unsigned.tar.gz
+    mv build/out/smartcloud-*.tar.gz build/out/smartcloud-*.dmg ../
 
-    ./bin/gbuild --memory 3000 --commit poseidon=v${VERSION} ../poseidon/contrib/gitian-descriptors/gitian-aarch64.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-aarch64.yml
-    mv build/out/poseidon-*.tar.gz build/out/src/poseidon-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit smartcloud=v${VERSION} ../smartcloud/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-aarch64.yml
+    mv build/out/smartcloud-*.tar.gz build/out/src/smartcloud-*.tar.gz ../
     popd
 
 Build output expected:
 
-  1. source tarball (`poseidon-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`poseidon-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`poseidon-${VERSION}-win[32|64]-setup-unsigned.exe`, `poseidon-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`poseidon-${VERSION}-osx-unsigned.dmg`, `poseidon-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`smartcloud-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`smartcloud-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`smartcloud-${VERSION}-win[32|64]-setup-unsigned.exe`, `smartcloud-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`smartcloud-${VERSION}-osx-unsigned.dmg`, `smartcloud-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import poseidon/contrib/gitian-keys/*.gpg
+    gpg --import smartcloud/contrib/gitian-keys/*.gpg
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../poseidon/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../poseidon/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../poseidon/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../poseidon/contrib/gitian-descriptors/gitian-aarch64.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../smartcloud/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../smartcloud/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../smartcloud/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../smartcloud/contrib/gitian-descriptors/gitian-aarch64.yml
     popd
 
 ### Next steps:
@@ -161,22 +161,22 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
-    transfer poseidon-osx-unsigned.tar.gz to osx for signing
-    tar xf poseidon-osx-unsigned.tar.gz
+    transfer smartcloud-osx-unsigned.tar.gz to osx for signing
+    tar xf smartcloud-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf poseidon-win-unsigned.tar.gz
+    tar xf smartcloud-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/poseidon-detached-sigs
+    cd ~/smartcloud-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -189,25 +189,25 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [poseidon-detached-sigs](https://github.com/eastcoastcrypto/poseidon-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [smartcloud-detached-sigs](https://github.com/eastcoastcrypto/smartcloud-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/poseidon-osx-signed.dmg ../poseidon-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/smartcloud-osx-signed.dmg ../smartcloud-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../poseidon/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../poseidon/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/poseidon-*win64-setup.exe ../poseidon-${VERSION}-win64-setup.exe
-    mv build/out/poseidon-*win32-setup.exe ../poseidon-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../smartcloud/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../smartcloud/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/smartcloud-*win64-setup.exe ../smartcloud-${VERSION}-win64-setup.exe
+    mv build/out/smartcloud-*win32-setup.exe ../smartcloud-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -229,23 +229,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-poseidon-${VERSION}-aarch64-linux-gnu.tar.gz
-poseidon-${VERSION}-arm-linux-gnueabihf.tar.gz
-poseidon-${VERSION}-i686-pc-linux-gnu.tar.gz
-poseidon-${VERSION}-x86_64-linux-gnu.tar.gz
-poseidon-${VERSION}-osx64.tar.gz
-poseidon-${VERSION}-osx.dmg
-poseidon-${VERSION}.tar.gz
-poseidon-${VERSION}-win32-setup.exe
-poseidon-${VERSION}-win32.zip
-poseidon-${VERSION}-win64-setup.exe
-poseidon-${VERSION}-win64.zip
+smartcloud-${VERSION}-aarch64-linux-gnu.tar.gz
+smartcloud-${VERSION}-arm-linux-gnueabihf.tar.gz
+smartcloud-${VERSION}-i686-pc-linux-gnu.tar.gz
+smartcloud-${VERSION}-x86_64-linux-gnu.tar.gz
+smartcloud-${VERSION}-osx64.tar.gz
+smartcloud-${VERSION}-osx.dmg
+smartcloud-${VERSION}.tar.gz
+smartcloud-${VERSION}-win32-setup.exe
+smartcloud-${VERSION}-win32.zip
+smartcloud-${VERSION}-win64-setup.exe
+smartcloud-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the poseidoncoin.com server*.
+space *do not upload these to the smartcloudcoin.com server*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -261,10 +261,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/poseidon, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/smartcloud, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/eastcoastcrypto/Poseidon/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/eastcoastcrypto/SmartCloud/releases/new) with a link to the archived release notes.
 
   - Celebrate

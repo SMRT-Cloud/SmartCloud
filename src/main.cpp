@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Poseidon developers
+// Copyright (c) 2017 The SmartCloud developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -48,7 +48,7 @@ using namespace std;
 using namespace libzerocoin;
 
 #if defined(NDEBUG)
-#error "Poseidon cannot be compiled without assertions."
+#error "SmartCloud cannot be compiled without assertions."
 #endif
 
 // 6 comes from OPCODE (1) + vch.size() (1) + BIGNUM size (4)
@@ -2469,7 +2469,7 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
         const CTransaction& tx = block.vtx[i];
 
         /** UNDO ZEROCOIN DATABASING
-         * note we only undo zerocoin databasing in the following statement, value to and from Poseidon
+         * note we only undo zerocoin databasing in the following statement, value to and from SmartCloud
          * addresses should still be handled by the typical bitcoin based undo code
          * */
         if (tx.ContainsZerocoins()) {
@@ -2602,11 +2602,11 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("poseidon-scriptch");
+    RenameThread("smartcloud-scriptch");
     scriptcheckqueue.Thread();
 }
 
-void RecalculateZPOSQMinted()
+void RecalculateZSMRTCMinted()
 {
     CBlockIndex *pindex = chainActive[Params().Zerocoin_AccumulatorStartHeight()];
     int nHeightEnd = chainActive.Height();
@@ -2638,14 +2638,14 @@ void RecalculateZPOSQMinted()
     pblocktree->Flush();
 }
 
-void RecalculateZPOSQSpent()
+void RecalculateZSMRTCSpent()
 {
     CBlockIndex* pindex = chainActive[Params().Zerocoin_AccumulatorStartHeight()];
     while (true) {
         if (pindex->nHeight % 1000 == 0)
             LogPrintf("%s : block %d...\n", __func__, pindex->nHeight);
 
-        //Rewrite zPOSQ supply
+        //Rewrite zSMRTC supply
         CBlock block;
         assert(ReadBlockFromDisk(block, pindex));
 
@@ -2654,13 +2654,13 @@ void RecalculateZPOSQSpent()
         //Reset the supply to previous block
         pindex->mapZerocoinSupply = pindex->pprev->mapZerocoinSupply;
 
-        //Add mints to zPOSQ supply
+        //Add mints to zSMRTC supply
         for (auto denom : libzerocoin::zerocoinDenomList) {
             long nDenomAdded = count(pindex->vMintDenominationsInBlock.begin(), pindex->vMintDenominationsInBlock.end(), denom);
             pindex->mapZerocoinSupply.at(denom) += nDenomAdded;
         }
 
-        //Remove spends from zPOSQ supply
+        //Remove spends from zSMRTC supply
         for (auto denom : listDenomsSpent)
             pindex->mapZerocoinSupply.at(denom)--;
 
@@ -2675,7 +2675,7 @@ void RecalculateZPOSQSpent()
     pblocktree->Flush();
 }
 
-bool RecalculatePOSQSupply(int nHeightStart)
+bool RecalculateSMRTCSupply(int nHeightStart)
 {
     if (nHeightStart > chainActive.Height())
         return false;
@@ -2912,9 +2912,9 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     std::list<libzerocoin::CoinDenomination> listSpends = ZerocoinSpendListFromBlock(block);
 
     if (!fVerifyingBlocks && pindex->nHeight == Params().Zerocoin_StartHeight() + 1) {
-        RecalculateZPOSQMinted();
-        RecalculateZPOSQSpent();
-        RecalculatePOSQSupply(1);
+        RecalculateZSMRTCMinted();
+        RecalculateZSMRTCSpent();
+        RecalculateSMRTCSupply(1);
     }
 
     // Initialize zerocoin supply to the supply from previous block
@@ -3115,7 +3115,7 @@ void static UpdateTip(CBlockIndex* pindexNew)
 {
     chainActive.SetTip(pindexNew);
 
-    // If turned on AutoZeromint will automatically convert POSQ to zPOSQ
+    // If turned on AutoZeromint will automatically convert SMRTC to zSMRTC
     if (pwalletMain->isZeromintEnabled ())
         pwalletMain->AutoZeromint ();
 
@@ -3942,7 +3942,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
                 REJECT_INVALID, "block-version");
         }
 
-        // Poseidon
+        // SmartCloud
         // It is entierly possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.
@@ -5413,7 +5413,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             return false;
         }
 
-        // Poseidon: We use certain sporks during IBD, so check to see if they are
+        // SmartCloud: We use certain sporks during IBD, so check to see if they are
         // available. If not, ask the first peer connected for them.
         if (!pSporkDB->SporkExists(SPORK_14_NEW_PROTOCOL_ENFORCEMENT) &&
             !pSporkDB->SporkExists(SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2) &&

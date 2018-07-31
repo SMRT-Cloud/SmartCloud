@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both poseidond and poseidon-qt, to make it harder for attackers to
+ * for both smartcloudd and smartcloud-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Poseidon Core");
+const std::string CLIENT_NAME("SmartCloud Core");
 
 /**
  * Client version number

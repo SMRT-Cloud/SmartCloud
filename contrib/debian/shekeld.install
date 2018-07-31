@@ -1,2 +1,2 @@
-usr/local/bin/poseidond usr/bin
-usr/local/bin/poseidon-cli usr/bin
+usr/local/bin/smartcloudd usr/bin
+usr/local/bin/smartcloud-cli usr/bin

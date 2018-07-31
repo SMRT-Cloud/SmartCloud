@@ -1,25 +1,25 @@
-# /etc/conf.d/poseidond: config file for /etc/init.d/poseidond
+# /etc/conf.d/smartcloudd: config file for /etc/init.d/smartcloudd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/poseidon/poseidon.conf"
+#BITCOIND_CONFIGFILE="/etc/smartcloud/smartcloud.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/poseidond"
+#BITCOIND_PIDDIR="/var/run/smartcloudd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/poseidond.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/smartcloudd.pid"
 
-# Where to write poseidond data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/poseidond"
+# Where to write smartcloudd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/smartcloudd"
 
-# User and group to own poseidond process
-#BITCOIND_USER="poseidon"
-#BITCOIND_GROUP="poseidon"
+# User and group to own smartcloudd process
+#BITCOIND_USER="smartcloud"
+#BITCOIND_GROUP="smartcloud"
 
-# Path to poseidond executable
-#BITCOIND_BIN="/usr/bin/poseidond"
+# Path to smartcloudd executable
+#BITCOIND_BIN="/usr/bin/smartcloudd"
 
-# Nice value to run poseidond under
+# Nice value to run smartcloudd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

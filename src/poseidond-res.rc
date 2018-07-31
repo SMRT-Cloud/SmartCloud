@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Poseidon"
-            VALUE "FileDescription",    "poseidond (OSS daemon/client for Poseidon)"
+            VALUE "CompanyName",        "SmartCloud"
+            VALUE "FileDescription",    "smartcloudd (OSS daemon/client for SmartCloud)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "poseidond"
+            VALUE "InternalName",       "smartcloudd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "poseidond.exe"
-            VALUE "ProductName",        "poseidond"
+            VALUE "OriginalFilename",   "smartcloudd.exe"
+            VALUE "ProductName",        "smartcloudd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

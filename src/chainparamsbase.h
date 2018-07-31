@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between poseidon-cli and poseidond)
- * of a given instance of the Poseidon system.
+ * CBaseChainParams defines the base parameters (shared between smartcloud-cli and smartcloudd)
+ * of a given instance of the SmartCloud system.
  */
 class CBaseChainParams
 {

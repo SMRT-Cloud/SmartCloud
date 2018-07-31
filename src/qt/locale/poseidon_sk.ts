@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše Poseidon adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše SmartCloud adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše Poseidon adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše SmartCloud adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše POSQ pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše SMRTC pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY POSQ &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY SMRTC &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu Poseidon, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu SmartCloud, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Adresa Poseidon, ktorou chcete správu podpísať</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>Adresa SmartCloud, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Poseidon adresy</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SmartCloud adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon adresa, ktorou bola správa podpísaná</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Poseidon adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou SmartCloud adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>Odoslať mince na adresu Poseidon</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>Odoslať mince na adresu SmartCloud</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>Vyžiadať platby (generuje QR kódy a poseidon: identifikátory URI)</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>Vyžiadať platby (generuje QR kódy a smartcloud: identifikátory URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>O Poseidon Core</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>O SmartCloud Core</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>Zobraziť informácie o Poseidon Core</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>Zobraziť informácie o SmartCloud Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>Zmeňte možnosti konfigurácie pre Poseidon</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>Zmeňte možnosti konfigurácie pre SmartCloud</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy Poseidon, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy SmartCloud, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými Poseidon adresami</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými SmartCloud adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a Poseidon: URI or payment request</source>
-        <translation>Otvorte Poseidon: URI alebo žiadosť o platbu</translation>
+        <source>Open a SmartCloud: URI or payment request</source>
+        <translation>Otvorte SmartCloud: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the Poseidon Core help message to get a list with possible Poseidon command-line options</source>
-        <translation>Zobraziť pomocnú správu programu Poseidon Core a získajte zoznam možností príkazového riadka Poseidon</translation>
+        <source>Show the SmartCloud Core help message to get a list with possible SmartCloud command-line options</source>
+        <translation>Zobraziť pomocnú správu programu SmartCloud Core a získajte zoznam možností príkazového riadka SmartCloud</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Poseidon Core klient</translation>
+        <source>SmartCloud Core client</source>
+        <translation>SmartCloud Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ MultiSend: %1</translation>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (poseidon.conf).</source>
-        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (poseidon.conf) nastaviť txindex = 1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (smartcloud.conf).</source>
+        <translation>Nie všetky transakcie sa zobrazia. Ak chcete zobraziť všetky transakcie, musíte v konfiguračnom súbore (smartcloud.conf) nastaviť txindex = 1.</translation>
     </message>
 </context>
 <context>
@@ -904,15 +904,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1136,8 +1136,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Adresa Poseidon, ktorou chcete správu podpísať</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>Adresa SmartCloud, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1160,16 +1160,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto Poseidon adresy</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto SmartCloud adresy</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon adresa, ktorou bola správa podpísaná</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou Poseidon adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou SmartCloud adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1207,8 +1207,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
@@ -1306,7 +1306,7 @@ MultiSend: %1</translation>
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

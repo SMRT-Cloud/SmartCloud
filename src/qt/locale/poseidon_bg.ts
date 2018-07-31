@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Poseidon адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите SmartCloud адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Poseidon адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите SmartCloud адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Poseidon от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия SmartCloud от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ POSQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ SMRTC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Poseidon адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете SmartCloud адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Poseidon адреса, с който да подпишете съобщението</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>SmartCloud адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Poseidon адрес</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този SmartCloud адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon адреса, който е подписано съобщението</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Poseidon адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения SmartCloud адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Ядро</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>Изпратете монети до Poseidon адрес</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>Изпратете монети до SmartCloud адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  Poseidon:URI)</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  SmartCloud:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zPOSQ and Obfuscation</source>
-        <translation>Поверителни действия за zPOSQ и Обфускация</translation>
+        <source>Privacy Action for zSMRTC and Obfuscation</source>
+        <translation>Поверителни действия за zSMRTC и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>&amp;Относно Poseidon Ядрото</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>&amp;Относно SmartCloud Ядрото</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>Информациза за Poseidon Ядрото</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>Информациза за SmartCloud Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>Промени Poseidon конфигурацията</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>Промени SmartCloud конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте Poseidon адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте SmartCloud адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Poseidon адреси</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните SmartCloud адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a Poseidon: URI or payment request</source>
-        <translation>Отвори Poseidon:URI платежно нареждане</translation>
+        <source>Open a SmartCloud: URI or payment request</source>
+        <translation>Отвори SmartCloud:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the Poseidon Core help message to get a list with possible Poseidon command-line options</source>
-        <translation>Разкрийте Помощ за Poseidon Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the SmartCloud Core help message to get a list with possible SmartCloud command-line options</source>
+        <translation>Разкрийте Помощ за SmartCloud Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Клиент Poseidon Ядро</translation>
+        <source>SmartCloud Core client</source>
+        <translation>Клиент SmartCloud Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Poseidon network</source>
-        <translation><numerusform>%n активни връзки към Poseidon мрежата</numerusform><numerusform>%n активни свръзки към Poseidon мрежата</numerusform></translation>
+        <source>%n active connection(s) to SmartCloud network</source>
+        <translation><numerusform>%n активни връзки към SmartCloud мрежата</numerusform><numerusform>%n активни свръзки към SmartCloud мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (poseidon.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (poseidon.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (smartcloud.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (smartcloud.conf).</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Poseidon address.</source>
-        <translation>Зададения адрес "%1"не е валиден Poseidon адрес.</translation>
+        <source>The entered address "%1" is not a valid SmartCloud address.</source>
+        <translation>Зададения адрес "%1"не е валиден SmartCloud адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Ядро</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Poseidon Core</source>
-        <translation>Относно Poseidon Ядрото</translation>
+        <source>About SmartCloud Core</source>
+        <translation>Относно SmartCloud Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to Poseidon Core.</source>
-        <translation>Добре Дошли в Poseidon Ядрото</translation>
+        <source>Welcome to SmartCloud Core.</source>
+        <translation>Добре Дошли в SmartCloud Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Poseidon Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Poseidon Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where SmartCloud Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде SmartCloud Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>Poseidon Core will download and store a copy of the Poseidon block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Poseidon Ядрото ще изтегли и запише копие на целия Poseidon блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>SmartCloud Core will download and store a copy of the SmartCloud block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SmartCloud Ядрото ще изтегли и запише копие на целия SmartCloud блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Ядро</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Poseidon addresses after it matures.
-To Add: enter percentage to give and Poseidon address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SmartCloud addresses after it matures.
+To Add: enter percentage to give and SmartCloud address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Poseidon адреси.
-Да Добавите: въведете процент и задайте Poseidon адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други SmartCloud адреси.
+Да Добавите: въведете процент и задайте SmartCloud адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1548,47 +1548,47 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SMRTC</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 SMRTC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SMRTC</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 SMRTC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 POSQ за да скриете 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 SMRTC to anonymize 10000 SMRTC</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 SMRTC за да скриете 10000 SMRTC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 POSQ за да скриете 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 SMRTC to anonymize 10000 SMRTC</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 SMRTC за да скриете 10000 SMRTC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на POSQ. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на SMRTC. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>0.1 POSQ за 10000 скрити POSQ</translation>
+        <source>0.1 SMRTC per 10000 SMRTC you anonymize.</source>
+        <translation>0.1 SMRTC за 10000 скрити SMRTC</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the Poseidon client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори Poseidon порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the SmartCloud client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори SmartCloud порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start Poseidon after logging in to the system.</source>
-        <translation>Стартирай Poseidon автоматично след влизане в системата.</translation>
+        <source>Automatically start SmartCloud after logging in to the system.</source>
+        <translation>Стартирай SmartCloud автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Poseidon on system login</source>
-        <translation>&amp;Стартирай Poseidon заедно с операционната система</translation>
+        <source>&amp;Start SmartCloud on system login</source>
+        <translation>&amp;Стартирай SmartCloud заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,34 +1702,34 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Poseidon.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting SmartCloud.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/poseidon-project/poseidon-project-translations</source>
+https://www.transifex.com/smartcloud-project/smartcloud-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/poseidon-project/poseidon-project-translations</translation>
+https://www.transifex.com/smartcloud-project/smartcloud-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming POSQ which get automatically converted to zPOSQ via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите POSQ, който автоматично да се конвертира в zPOSQ посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming SMRTC which get automatically converted to zSMRTC via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите SMRTC, който автоматично да се конвертира в zSMRTC посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPOSQ</source>
-        <translation>Процент автоматично сечени zPOSQ</translation>
+        <source>Percentage of autominted zSMRTC</source>
+        <translation>Процент автоматично сечени zSMRTC</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough POSQ for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zPOSQ докато не се съберат достатъчно POSQ за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SMRTC for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zSMRTC докато не се съберат достатъчно SMRTC за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zPOSQ Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zPOSQ</translation>
+        <source>Preferred Automint zSMRTC Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zSMRTC</translation>
     </message>
     <message>
-        <source>Connect to the Poseidon network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с Poseidon мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the SmartCloud network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с SmartCloud мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>От</translation>
     </message>
     <message>
-        <source>POSQ Balances</source>
-        <translation>POSQ Баланс</translation>
+        <source>SMRTC Balances</source>
+        <translation>SMRTC Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Poseidon мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с SmartCloud мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>POSQ:</source>
-        <translation>POSQ:</translation>
+        <source>SMRTC:</source>
+        <translation>SMRTC:</translation>
     </message>
     <message>
-        <source>zPOSQ:</source>
-        <translation>zPOSQ:</translation>
+        <source>zSMRTC:</source>
+        <translation>zSMRTC:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1974,12 +1974,12 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start poseidon: click-to-pay handler</source>
-        <translation>Провал при стартирането на poseidon: click-to-pay обработвател</translation>
+        <source>Cannot start smartcloud: click-to-pay handler</source>
+        <translation>Провал при стартирането на smartcloud: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Poseidon address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден Poseidon адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SmartCloud address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден SmartCloud адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2060,24 +2060,24 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>POSQ which were anonymized via Zerocin Protocol</source>
-        <translation>POSQ скрити посредством Зерокойн протокола</translation>
+        <source>SMRTC which were anonymized via Zerocin Protocol</source>
+        <translation>SMRTC скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin POSQ (zPOSQ)</source>
-        <translation>Zerocoin POSQ (zPOSQ)</translation>
+        <source>Zerocoin SMRTC (zSMRTC)</source>
+        <translation>Zerocoin SMRTC (zSMRTC)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Poseidon мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с SmartCloud мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко POSQ  да се конвертират в zPOSQ</translation>
+        <translation>Въведете колко SMRTC  да се конвертират в zSMRTC</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zPOSQ</source>
-        <translation>zPOSQ</translation>
+        <source>zSMRTC</source>
+        <translation>zSMRTC</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 POSQ</source>
-        <translation>0.000 000 00 POSQ</translation>
+        <source>0.000 000 00 SMRTC</source>
+        <translation>0.000 000 00 SMRTC</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2133,11 +2133,11 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zPOSQ Контрол</translation>
+        <translation>zSMRTC Контрол</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>Избрани zPOSQ:</translation>
+        <translation>Избрани zSMRTC:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zPOSQ</source>
-        <translation>0 zPOSQ</translation>
+        <source>0 zSMRTC</source>
+        <translation>0 zSMRTC</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2176,7 +2176,7 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Poseidon address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The SmartCloud address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zPOSQ от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zSMRTC от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2376,8 +2376,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Копирай сумата</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Poseidon network yet.</source>
-        <translation>Zerocoin функцията все още не е активирана в Poseidon мрежата.</translation>
+        <source>Zerocoin functionality is not enabled on the SmartCloud network yet.</source>
+        <translation>Zerocoin функцията все още не е активирана в SmartCloud мрежата.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zPOSQ in </source>
-        <translation>zPOSQ в</translation>
+        <source> zSMRTC in </source>
+        <translation>zSMRTC в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2430,8 +2430,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Poseidon Address</source>
-        <translation>Невалиден Poseidon адрес</translation>
+        <source>Invalid SmartCloud Address</source>
+        <translation>Невалиден SmartCloud адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2475,7 +2475,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Spend #: </source>
-        <translation>zPOSQ Похарчени #:</translation>
+        <translation>zSMRTC Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2499,7 +2499,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>Сечене на zPOSQ</translation>
+        <translation>Сечене на zSMRTC</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2521,8 +2521,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Poseidon address (e.g. %1)</source>
-        <translation>Задайте Poseidon адрес (например %1)</translation>
+        <source>Enter a SmartCloud address (e.g. %1)</source>
+        <translation>Задайте SmartCloud адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2659,8 +2659,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Poseidon debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори Poseidon дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the SmartCloud debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори SmartCloud дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2827,8 +2827,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the Poseidon RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на Poseidon.</translation>
+        <source>Welcome to the SmartCloud RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на SmartCloud.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2898,12 +2898,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Poseidon network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Poseidon мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SmartCloud network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по SmartCloud мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Poseidon network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Poseidon мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SmartCloud network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по SmartCloud мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 SMRTC</source>
+        <translation>0 SMRTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,15 +3179,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uPOSQ и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPOSQ входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uPOSQ. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uSMRTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMRTCs in fee,&lt;br /&gt;while "at least" pays 1000 uSMRTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uSMRTC и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uSMRTC входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uSMRTC. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "total at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uPOSQ и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPOSQ входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uPOSQ. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uSMRTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMRTCs in fee,&lt;br /&gt;while "total at least" pays 1000 uSMRTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uSMRTC и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uSMRTC входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uSMRTC. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Poseidon transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SmartCloud transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized POSQ</source>
-        <translation>Анонимизиран POSQ</translation>
+        <source>Anonymized SMRTC</source>
+        <translation>Анонимизиран SMRTC</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3295,8 +3295,8 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid Poseidon address</source>
-        <translation>Предупреждение: Невалиден POSQ адрес</translation>
+        <source>Warning: Invalid SmartCloud address</source>
+        <translation>Предупреждение: Невалиден SMRTC адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3402,8 +3402,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Poseidon address to send the payment to</source>
-        <translation>Poseidon адреса - получател на плащането</translation>
+        <source>The SmartCloud address to send the payment to</source>
+        <translation>SmartCloud адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3442,8 +3442,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Poseidon: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Poseidon network.</source>
-        <translation>Съобщение, което е било прикачено към Poseidon:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Poseidon мрежата.</translation>
+        <source>A message that was attached to the SmartCloud: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SmartCloud network.</source>
+        <translation>Съобщение, което е било прикачено към SmartCloud:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по SmartCloud мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3469,8 +3469,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Poseidon Core is shutting down...</source>
-        <translation>Изключване на Poseidon Ядрото...</translation>
+        <source>SmartCloud Core is shutting down...</source>
+        <translation>Изключване на SmartCloud Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3492,8 +3492,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Poseidon адреса, с който да подпишете съобщението</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>SmartCloud адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3524,16 +3524,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Poseidon адрес</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този SmartCloud адрес</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon адреса, който е подписано съобщението</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Poseidon адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения SmartCloud адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3619,8 +3619,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Ядро</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3635,8 +3635,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The Poseidon Core developers</source>
-        <translation>Poseidon Core разработчици</translation>
+        <source>The SmartCloud Core developers</source>
+        <translation>SmartCloud Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3956,23 +3956,23 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран POSQ във zPOSQ</translation>
+        <translation>Конвертиран SMRTC във zSMRTC</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>Похарчени zPOSQ</translation>
+        <translation>Похарчени zSMRTC</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен POSQ от zPOSQ</translation>
+        <translation>Получен SMRTC от zSMRTC</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Исечено ресто като zPOSQ от похарчените zPOSQ</translation>
+        <translation>Исечено ресто като zSMRTC от похарчените zSMRTC</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zPOSQ в POSQ</translation>
+        <translation>Конвертирани zSMRTC в SMRTC</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3980,7 +3980,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zPOSQ Акумулатор</translation>
+        <translation>zSMRTC Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4087,7 +4087,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен POSQ от zPOSQ</translation>
+        <translation>Получен SMRTC от zSMRTC</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4099,7 +4099,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Харчене на Zerocoin, Ресто в zPOSQ</translation>
+        <translation>Харчене на Zerocoin, Ресто в zSMRTC</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 POSQ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SMRTC.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 SMRTC.</translation>
     </message>
 </context>
 <context>
@@ -4262,7 +4262,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>Изберете zPOSQ за Изпращане</translation>
+        <translation>Изберете zSMRTC за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4274,7 +4274,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr</source>
-        <translation>zPOSQ</translation>
+        <translation>zSMRTC</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4286,7 +4286,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4304,8 +4304,8 @@ Please be patient...</source>
         <translation>Изтрий всички преводи от портфейла и възстанови само тези части от блокчейна - сканира при стартиране.</translation>
     </message>
     <message>
-        <source>Disable all Poseidon specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи всякаква Poseidon функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
+        <source>Disable all SmartCloud specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи всякаква SmartCloud функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в POSQ/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in SMRTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в SMRTC/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в POSQ/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in SMRTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в SMRTC/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

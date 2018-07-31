@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Poseidon"
-            VALUE "FileDescription",    "Poseidon-cli (OSS RPC client for Poseidon)"
+            VALUE "CompanyName",        "SmartCloud"
+            VALUE "FileDescription",    "SmartCloud-cli (OSS RPC client for SmartCloud)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "poseidon-cli"
+            VALUE "InternalName",       "smartcloud-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "poseidon-cli.exe"
-            VALUE "ProductName",        "Poseidon-cli"
+            VALUE "OriginalFilename",   "smartcloud-cli.exe"
+            VALUE "ProductName",        "SmartCloud-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

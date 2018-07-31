@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Poseidon"
-            VALUE "FileDescription",    "Poseidon Core (OSS GUI client for Poseidon)"
+            VALUE "CompanyName",        "SmartCloud"
+            VALUE "FileDescription",    "SmartCloud Core (OSS GUI client for SmartCloud)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "Poseidon-qt"
+            VALUE "InternalName",       "SmartCloud-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "Poseidon-qt.exe"
-            VALUE "ProductName",        "Poseidon Core"
+            VALUE "OriginalFilename",   "SmartCloud-qt.exe"
+            VALUE "ProductName",        "SmartCloud Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Poseidon adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina SmartCloud adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Poseidon adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina SmartCloud adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina POSQs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina SMRTCs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA POSQ&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA SMRTC&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Poseidon adress som du vill kryptera med BIP 38.
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en SmartCloud adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Poseidon adressen för signera meddelandet med</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>SmartCloud adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Poseidon adress</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna SmartCloud adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon adressen meddelandet blev signerat med</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Poseidon adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SmartCloud adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kärna</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>Skicka mynt till en Poseidon adress</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>Skicka mynt till en SmartCloud adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och poseidon: URls)</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och smartcloud: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>Om Poseidon Kärnan</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>Om SmartCloud Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>Visa information om Poseidon Kärnan</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>Visa information om SmartCloud Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>Ändra konfigurationsval för Poseidon</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>Ändra konfigurationsval för SmartCloud</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Poseidon adress för att visa att du äger dem</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>Signera meddelanden med din SmartCloud adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Poseidon adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SmartCloud adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Poseidon kärn klient</translation>
+        <source>SmartCloud Core client</source>
+        <translation>SmartCloud kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kärna</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kärna</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>Poseidon adressen för signera meddelandet med</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>SmartCloud adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Poseidon adress</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna SmartCloud adress</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon adressen meddelandet blev signerat med</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Poseidon adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika SmartCloud adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Kärna</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

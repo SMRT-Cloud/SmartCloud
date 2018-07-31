@@ -6,12 +6,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/poseidon
-src/poseidond
-src/poseidon-cli
-src/poseidon-tx
-src/test/test_poseidon
-src/qt/test/test_poseidon-qt
+src/smartcloud
+src/smartcloudd
+src/smartcloud-cli
+src/smartcloud-tx
+src/test/test_smartcloud
+src/qt/test/test_smartcloud-qt
 
 # autoreconf
 Makefile.in
@@ -37,8 +37,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/poseidon-config.h
-src/config/poseidon-config.h.in
+src/config/smartcloud-config.h
+src/config/smartcloud-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -63,7 +63,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.poseidon
+.smartcloud
 *.a
 *.pb.cc
 *.pb.h
@@ -82,12 +82,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-poseidon-qt
-poseidon-Qt.app
+smartcloud-qt
+smartcloud-Qt.app
 
 # Unit-tests
 Makefile.test
-poseidon-qt_test
+smartcloud-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -103,7 +103,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_poseidon.coverage/
+test_smartcloud.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -128,3 +128,9 @@ CMakeLists.txt
 cmake-build-debug
 config.log
 config.status
+.vs/slnx.sqlite
+.vs/ProjectSettings.json
+.vs/SmartCloud/v15/Browse.VC.db
+.vs/SmartCloud/v15/Browse.VC.opendb
+.vs/SmartCloud/v15/.suo
+.vs/VSWorkspaceState.json

@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon adresa s kojom je potpisana poruka</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Poseidon Core klijent</translation>
+        <source>SmartCloud Core client</source>
+        <translation>SmartCloud Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -256,15 +256,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -535,8 +535,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 SMRTC</source>
+        <translation>0 SMRTC</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -597,8 +597,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Poseidon Core is shutting down...</source>
-        <translation>Poseidon Core se gasi...</translation>
+        <source>SmartCloud Core is shutting down...</source>
+        <translation>SmartCloud Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -620,8 +620,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>Poseidon adresa s kojom je potpisana poruka</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>SmartCloud adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -635,8 +635,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -790,7 +790,7 @@
     </message>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

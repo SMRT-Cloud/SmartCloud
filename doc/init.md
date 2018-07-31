@@ -1,60 +1,60 @@
-Sample init scripts and service configuration for poseidond
+Sample init scripts and service configuration for smartcloudd
 ==========================================================
 
 Sample scripts and configuration files for systemd, Upstart and OpenRC
 can be found in the contrib/init folder.
 
-    contrib/init/poseidond.service:    systemd service unit configuration
-    contrib/init/poseidond.openrc:     OpenRC compatible SysV style init script
-    contrib/init/poseidond.openrcconf: OpenRC conf.d file
-    contrib/init/poseidond.conf:       Upstart service configuration file
-    contrib/init/poseidond.init:       CentOS compatible SysV style init script
+    contrib/init/smartcloudd.service:    systemd service unit configuration
+    contrib/init/smartcloudd.openrc:     OpenRC compatible SysV style init script
+    contrib/init/smartcloudd.openrcconf: OpenRC conf.d file
+    contrib/init/smartcloudd.conf:       Upstart service configuration file
+    contrib/init/smartcloudd.init:       CentOS compatible SysV style init script
 
 1. Service User
 ---------------------------------
 
-All three startup configurations assume the existence of a "poseidon" user
+All three startup configurations assume the existence of a "smartcloud" user
 and group.  They must be created before attempting to use these scripts.
 
 2. Configuration
 ---------------------------------
 
-At a bare minimum, poseidond requires that the rpcpassword setting be set
+At a bare minimum, smartcloudd requires that the rpcpassword setting be set
 when running as a daemon.  If the configuration file does not exist or this
-setting is not set, poseidond will shutdown promptly after startup.
+setting is not set, smartcloudd will shutdown promptly after startup.
 
 This password does not have to be remembered or typed as it is mostly used
-as a fixed token that poseidond and client programs read from the configuration
+as a fixed token that smartcloudd and client programs read from the configuration
 file, however it is recommended that a strong and secure password be used
 as this password is security critical to securing the wallet should the
 wallet be enabled.
 
-If poseidond is run with "-daemon" flag, and no rpcpassword is set, it will
+If smartcloudd is run with "-daemon" flag, and no rpcpassword is set, it will
 print a randomly generated suitable password to stderr.  You can also
 generate one from the shell yourself like this:
 
 bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'
 
-Once you have a password in hand, set rpcpassword= in /etc/poseidon/poseidon.conf
+Once you have a password in hand, set rpcpassword= in /etc/smartcloud/smartcloud.conf
 
 For an example configuration file that describes the configuration settings,
-see contrib/debian/examples/poseidon.conf.
+see contrib/debian/examples/smartcloud.conf.
 
 3. Paths
 ---------------------------------
 
 All three configurations assume several paths that might need to be adjusted.
 
-Binary:              /usr/bin/poseidond
-Configuration file:  /etc/poseidon/poseidon.conf
-Data directory:      /var/lib/poseidond
-PID file:            /var/run/poseidond/poseidond.pid (OpenRC and Upstart)
-                     /var/lib/poseidond/poseidond.pid (systemd)
+Binary:              /usr/bin/smartcloudd
+Configuration file:  /etc/smartcloud/smartcloud.conf
+Data directory:      /var/lib/smartcloudd
+PID file:            /var/run/smartcloudd/smartcloudd.pid (OpenRC and Upstart)
+                     /var/lib/smartcloudd/smartcloudd.pid (systemd)
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the poseidon user and group.  It is advised for security
+should all be owned by the smartcloud user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-poseidon user and group.  Access to poseidon-cli and other poseidond rpc clients
+smartcloud user and group.  Access to smartcloud-cli and other smartcloudd rpc clients
 can then be controlled by group membership.
 
 4. Installing Service Configuration
@@ -66,19 +66,19 @@ Installing this .service file consists on just copying it to
 /usr/lib/systemd/system directory, followed by the command
 "systemctl daemon-reload" in order to update running systemd configuration.
 
-To test, run "systemctl start poseidond" and to enable for system startup run
-"systemctl enable poseidond"
+To test, run "systemctl start smartcloudd" and to enable for system startup run
+"systemctl enable smartcloudd"
 
 4b) OpenRC
 
-Rename poseidond.openrc to poseidond and drop it in /etc/init.d.  Double
+Rename smartcloudd.openrc to smartcloudd and drop it in /etc/init.d.  Double
 check ownership and permissions and make it executable.  Test it with
-"/etc/init.d/poseidond start" and configure it to run on startup with
-"rc-update add poseidond"
+"/etc/init.d/smartcloudd start" and configure it to run on startup with
+"rc-update add smartcloudd"
 
 4c) Upstart (for Debian/Ubuntu based distributions)
 
-Drop poseidond.conf in /etc/init.  Test by running "service poseidond start"
+Drop smartcloudd.conf in /etc/init.  Test by running "service smartcloudd start"
 it will automatically start on reboot.
 
 NOTE: This script is incompatible with CentOS 5 and Amazon Linux 2014 as they
@@ -86,11 +86,11 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 
 4d) CentOS
 
-Copy poseidond.init to /etc/init.d/poseidond. Test by running "service poseidond start".
+Copy smartcloudd.init to /etc/init.d/smartcloudd. Test by running "service smartcloudd start".
 
-Using this script, you can adjust the path and flags to the poseidond program by
+Using this script, you can adjust the path and flags to the smartcloudd program by
 setting the SHEKELD and FLAGS environment variables in the file
-/etc/sysconfig/poseidond. You can also use the DAEMONOPTS environment variable here.
+/etc/sysconfig/smartcloudd. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn
 -----------------------------------

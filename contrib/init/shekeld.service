@@ -1,19 +1,19 @@
 [Unit]
-Description=Poseidon's distributed currency daemon
+Description=SmartCloud's distributed currency daemon
 After=network.target
 
 [Service]
-User=poseidon
-Group=poseidon
+User=smartcloud
+Group=smartcloud
 
 Type=forking
-PIDFile=/var/lib/poseidond/poseidond.pid
+PIDFile=/var/lib/smartcloudd/smartcloudd.pid
 
-ExecStart=/usr/bin/poseidond -daemon -pid=/var/lib/poseidond/poseidond.pid \
-          -conf=/etc/poseidon/poseidon.conf -datadir=/var/lib/poseidond
+ExecStart=/usr/bin/smartcloudd -daemon -pid=/var/lib/smartcloudd/smartcloudd.pid \
+          -conf=/etc/smartcloud/smartcloud.conf -datadir=/var/lib/smartcloudd
 
-ExecStop=-/usr/bin/poseidon-cli -conf=/etc/poseidon/poseidon.conf \
-         -datadir=/var/lib/poseidond stop
+ExecStop=-/usr/bin/smartcloud-cli -conf=/etc/smartcloud/smartcloud.conf \
+         -datadir=/var/lib/smartcloudd stop
 
 Restart=always
 PrivateTmp=true

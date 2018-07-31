@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要匯出Poseidon幣的位址</translation>
+        <translation>選擇要匯出SmartCloud幣的位址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要接收Poseidon幣的位址</translation>
+        <translation>選擇要接收SmartCloud幣的位址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收的位址</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這是你用來付款的 Poseidon 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>這是你用來付款的 SmartCloud 位址, 送出前, 請務必確認金額及接收位址是否正確.</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這是你用來接收款項的 Poseidon 位址, 建議你每次付款都使用新的位址.</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>這是你用來接收款項的 SmartCloud 位址, 建議你每次付款都使用新的位址.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -164,16 +164,16 @@
         <translation>錢包確認加密</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 POSQ 幣被可疑軟體或病毒偷走的風險.</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud 現在會關閉程式來處理加密流程, 請注意, 僅僅是加密你的錢包並不能完全保護你的 SMRTC 幣被可疑軟體或病毒偷走的風險.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>確定要加密你的錢包?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(POSQ)&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>請注意: 如果你加密了你的錢包但是卻忘記你設定的密碼, &lt;b&gt;你將會失去錢包裡的錢(SMRTC)&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,16 +227,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>輸入你想 BIP 38 加密的 Poseidon 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>輸入你想 BIP 38 加密的 SmartCloud 位址, 輸入密碼在中間欄, 按下加密按鈕來產生加密私鑰.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>位址:</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>對訊息簽名的 Poseidon 位址</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>對訊息簽名的 SmartCloud 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -267,8 +267,8 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>使用簽章來證明你是該  Poseidon 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>使用簽章來證明你是該  SmartCloud 位址的擁有者,</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -287,12 +287,12 @@
         <translation>&amp;BIP 38 解密</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>此訊息之 Poseidon 位址已簽章於</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>此訊息之 SmartCloud 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>驗證訊息以確保該  Poseidon 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>驗證訊息以確保該  SmartCloud 位址已被簽章</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -582,16 +582,16 @@
         <translation>Tabs 工具列</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>送出錢幣到 Poseidon 地址</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>送出錢幣到 SmartCloud 地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>請求付款 (會產生 QR Code跟 poseidon 位址)</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>請求付款 (會產生 QR Code跟 smartcloud 位址)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -602,24 +602,24 @@
         <translation>瀏覽 Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>&amp;關於 Poseidon Core</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>&amp;關於 SmartCloud Core</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>顯示 Poseidon Core 相關資訊</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>顯示 SmartCloud Core 相關資訊</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>修改 Poseidon 設定</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>修改 SmartCloud 設定</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>使用你的 Poseidon 位址對訊息簽章, 來證明你是擁有者</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>使用你的 SmartCloud 位址對訊息簽章, 來證明你是擁有者</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>驗證訊息簽章與 Poseidon 位址吻合</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>驗證訊息簽章與 SmartCloud 位址吻合</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -650,8 +650,8 @@
         <translation>打開Masternode設定檔</translation>
     </message>
     <message>
-        <source>Open a Poseidon: URI or payment request</source>
-        <translation>打開Poseidon: 位址或付款請求 </translation>
+        <source>Open a SmartCloud: URI or payment request</source>
+        <translation>打開SmartCloud: 位址或付款請求 </translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -662,12 +662,12 @@
         <translation>區塊鏈瀏覽視窗</translation>
     </message>
     <message>
-        <source>Show the Poseidon Core help message to get a list with possible Poseidon command-line options</source>
-        <translation>顯示 Poseidon Core 幫助訊息以取得 Poseidon 命令列表選項</translation>
+        <source>Show the SmartCloud Core help message to get a list with possible SmartCloud command-line options</source>
+        <translation>顯示 SmartCloud Core 幫助訊息以取得 SmartCloud 命令列表選項</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Poseidon Core 客戶端</translation>
+        <source>SmartCloud Core client</source>
+        <translation>SmartCloud Core 客戶端</translation>
     </message>
     </context>
 <context>
@@ -696,15 +696,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
@@ -836,8 +836,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>對訊息簽名的 Poseidon 位址</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>對訊息簽名的 SmartCloud 位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -860,16 +860,16 @@
         <translation>拷貝目前的簽章到系統剪貼簿</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>使用簽章來證明你是該  Poseidon 位址的擁有者,</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>使用簽章來證明你是該  SmartCloud 位址的擁有者,</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>此訊息之 Poseidon 位址已簽章於</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>此訊息之 SmartCloud 位址已簽章於</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>驗證訊息以確保該  Poseidon 位址已被簽章</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>驗證訊息以確保該  SmartCloud 位址已被簽章</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -907,8 +907,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
@@ -974,6 +974,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     </context>
 </TS>

@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(POSQ);
-    unitlist.append(mPOSQ);
-    unitlist.append(uPOSQ);
+    unitlist.append(SMRTC);
+    unitlist.append(mSMRTC);
+    unitlist.append(uSMRTC);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case POSQ:
-    case mPOSQ:
-    case uPOSQ:
+    case SMRTC:
+    case mSMRTC:
+    case uSMRTC:
         return true;
     default:
         return false;
@@ -40,12 +40,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case POSQ:
-        return QString("poseidon");
-    case mPOSQ:
-        return QString("mposeidon");
-    case uPOSQ:
-        return QString::fromUtf8("uposeidon");
+    case SMRTC:
+        return QString("smartcloud");
+    case mSMRTC:
+        return QString("msmartcloud");
+    case uSMRTC:
+        return QString::fromUtf8("usmartcloud");
     default:
         return QString("???");
     }
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case POSQ:
-            return QString("POSQ");
-        case mPOSQ:
-            return QString("mPOSQ");
-        case uPOSQ:
-            return QString::fromUtf8("μPOSQ");
+        case SMRTC:
+            return QString("SMRTC");
+        case mSMRTC:
+            return QString("mSMRTC");
+        case uSMRTC:
+            return QString::fromUtf8("μSMRTC");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case POSQ:
-            return QString("tPOSQ");
-        case mPOSQ:
-            return QString("mtPOSQ");
-        case uPOSQ:
-            return QString::fromUtf8("μtPOSQ");
+        case SMRTC:
+            return QString("tSMRTC");
+        case mSMRTC:
+            return QString("mtSMRTC");
+        case uSMRTC:
+            return QString::fromUtf8("μtSMRTC");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case POSQ:
-            return QString("POSQ");
-        case mPOSQ:
-            return QString("Milli-POSQ (1 / 1" THIN_SP_UTF8 "000)");
-        case uPOSQ:
-            return QString("Micro-POSQ (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case SMRTC:
+            return QString("SMRTC");
+        case mSMRTC:
+            return QString("Milli-SMRTC (1 / 1" THIN_SP_UTF8 "000)");
+        case uSMRTC:
+            return QString("Micro-SMRTC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case POSQ:
-            return QString("TestPOSQs");
-        case mPOSQ:
-            return QString("Milli-TestPOSQ (1 / 1" THIN_SP_UTF8 "000)");
-        case uPOSQ:
-            return QString("Micro-TestPOSQ (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case SMRTC:
+            return QString("TestSMRTCs");
+        case mSMRTC:
+            return QString("Milli-TestSMRTC (1 / 1" THIN_SP_UTF8 "000)");
+        case uSMRTC:
+            return QString("Micro-TestSMRTC (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case POSQ:
+    case SMRTC:
         return 100000000;
-    case mPOSQ:
+    case mSMRTC:
         return 100000;
-    case uPOSQ:
+    case uSMRTC:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case POSQ:
+    case SMRTC:
         return 8;
-    case mPOSQ:
+    case mSMRTC:
         return 5;
-    case uPOSQ:
+    case uSMRTC:
         return 2;
     default:
         return 0;

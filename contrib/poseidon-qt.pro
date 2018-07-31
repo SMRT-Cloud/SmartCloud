@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/poseidon-config.h \
+           src/smartcloud-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/poseidon-config.h \
+           src/config/smartcloud-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/poseidon.moc \
+           src/qt/smartcloud.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/poseidon-cli.cpp \
-           src/poseidon-tx.cpp \
-           src/poseidon.cpp \
+           src/smartcloud-cli.cpp \
+           src/smartcloud-tx.cpp \
+           src/smartcloud.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/poseidon.cpp \
-           src/qt/poseidonstrings.cpp \
+           src/qt/smartcloud.cpp \
+           src/qt/smartcloudstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_poseidon.cpp \
+           src/test/test_smartcloud.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/poseidon.qrc src/qt/poseidon_locale.qrc
+RESOURCES += src/qt/smartcloud.qrc src/qt/smartcloud_locale.qrc
 
-TRANSLATIONS += src/qt/locale/poseidon_bg.ts \
-                src/qt/locale/poseidon_de.ts \
-                src/qt/locale/poseidon_en.ts \
-                src/qt/locale/poseidon_es.ts \
-                src/qt/locale/poseidon_fi.ts \
-                src/qt/locale/poseidon_fr.ts \
-                src/qt/locale/poseidon_it.ts \
-                src/qt/locale/poseidon_ja.ts \
-                src/qt/locale/poseidon_pl.ts \
-                src/qt/locale/poseidon_pt.ts \
-                src/qt/locale/poseidon_ru.ts \
-                src/qt/locale/poseidon_sk.ts \
-                src/qt/locale/poseidon_sv.ts \
-                src/qt/locale/poseidon_vi.ts \
-                src/qt/locale/poseidon_zh_CN.ts \
-                src/qt/locale/poseidon_zh_TW.ts
+TRANSLATIONS += src/qt/locale/smartcloud_bg.ts \
+                src/qt/locale/smartcloud_de.ts \
+                src/qt/locale/smartcloud_en.ts \
+                src/qt/locale/smartcloud_es.ts \
+                src/qt/locale/smartcloud_fi.ts \
+                src/qt/locale/smartcloud_fr.ts \
+                src/qt/locale/smartcloud_it.ts \
+                src/qt/locale/smartcloud_ja.ts \
+                src/qt/locale/smartcloud_pl.ts \
+                src/qt/locale/smartcloud_pt.ts \
+                src/qt/locale/smartcloud_ru.ts \
+                src/qt/locale/smartcloud_sk.ts \
+                src/qt/locale/smartcloud_sv.ts \
+                src/qt/locale/smartcloud_vi.ts \
+                src/qt/locale/smartcloud_zh_CN.ts \
+                src/qt/locale/smartcloud_zh_TW.ts

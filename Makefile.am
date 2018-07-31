@@ -44,9 +44,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_poseidon_filtered.info total_coverage.info \
+  leveldb_baseline.info test_smartcloud_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info \
-  leveldb_baseline_filtered.info test_poseidon_coverage.info test_poseidon.info
+  leveldb_baseline_filtered.info test_smartcloud_coverage.info test_smartcloud.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -176,16 +176,16 @@ leveldb_baseline_filtered.info: leveldb_baseline.info
 baseline_filtered_combined.info: leveldb_baseline_filtered.info baseline_filtered.info
 	$(LCOV) -a leveldb_baseline_filtered.info -a baseline_filtered.info -o $@
 
-test_poseidon.info: baseline_filtered_combined.info
+test_smartcloud.info: baseline_filtered_combined.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c -d $(abs_builddir)/src -t test_poseidon -o $@
+	$(LCOV) -c -d $(abs_builddir)/src -t test_smartcloud -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_poseidon_filtered.info: test_poseidon.info
+test_smartcloud_filtered.info: test_smartcloud.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_poseidon_filtered.info
+block_test.info: test_smartcloud_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitcoind-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool 0
 	$(LCOV) -c -d $(abs_builddir)/src --t BitcoinJBlockTest -o $@
@@ -195,13 +195,13 @@ block_test.info: test_poseidon_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_poseidon_coverage.info: baseline_filtered_combined.info test_poseidon_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_poseidon_filtered.info -o $@
+test_smartcloud_coverage.info: baseline_filtered_combined.info test_smartcloud_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_smartcloud_filtered.info -o $@
 
-total_coverage.info:  baseline_filtered_combined.info test_poseidon_filtered.info block_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_poseidon_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info:  baseline_filtered_combined.info test_smartcloud_filtered.info block_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_smartcloud_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_poseidon.coverage/.dirstamp:  test_poseidon_coverage.info
+test_smartcloud.coverage/.dirstamp:  test_smartcloud_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
@@ -209,7 +209,7 @@ total.coverage/.dirstamp: total_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
-cov: test_poseidon.coverage/.dirstamp total.coverage/.dirstamp
+cov: test_smartcloud.coverage/.dirstamp total.coverage/.dirstamp
 
 endif
 
@@ -222,4 +222,4 @@ CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 .INTERMEDIATE: $(COVERAGE_INFO)
 
 clean-local:
-	rm -rf test_poseidon.coverage/ total.coverage/ $(OSX_APP)
+	rm -rf test_smartcloud.coverage/ total.coverage/ $(OSX_APP)

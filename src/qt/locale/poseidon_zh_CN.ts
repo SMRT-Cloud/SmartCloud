@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>选择发送Poseidon coin的地址</translation>
+        <translation>选择发送SmartCloud coin的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>选择接收Poseidon coin的地址</translation>
+        <translation>选择接收SmartCloud coin的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是用于发送Poseidon的地址。在发送Poseidon之前，请认真核查发送金额和接收地址。</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这是用于发送SmartCloud的地址。在发送SmartCloud之前，请认真核查发送金额和接收地址。</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这是用于接收Poseidon的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这是用于接收SmartCloud的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>确认钱包加密</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取POSQs。</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取SMRTCs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>您确定加密您的钱包吗？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>注意：请妥善保管好你的密码，因为在加密后，没有密码将无法打开钱包。这将会让您&lt;b&gt;损失钱包中所有的POSQ&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>注意：请妥善保管好你的密码，因为在加密后，没有密码将无法打开钱包。这将会让您&lt;b&gt;损失钱包中所有的SMRTC&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>输入您要使用BIP 38加密的Poseidon地址。在中间框中输入密码。按加密计算加密私钥。</translation>
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>输入您要使用BIP 38加密的SmartCloud地址。在中间框中输入密码。按加密计算加密私钥。</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>地址：</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>该Poseidon地址签名的消息</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>该SmartCloud地址签名的消息</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>将当前签名复制到系统剪贴板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>签署消息以证明您拥有此Poseidon地址</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>签署消息以证明您拥有此SmartCloud地址</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>输入BIP 38加密私钥。 在中间框中输入密码。 单击解密密钥计算私钥。 密钥解密后，单击“导入地址”将将该私钥添加到钱包中。</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>由Poseidon地址签名的消息</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>由SmartCloud地址签名的消息</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>验证消息确保它已使用指定的Poseidon地址进行签名</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>验证消息确保它已使用指定的SmartCloud地址进行签名</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>标签工具栏</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>发送数字货币到Poseidon地址</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>发送数字货币到SmartCloud地址</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>请求支付（生成二维码和poseidon：URIs）</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>请求支付（生成二维码和smartcloud：URIs）</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;P隐私</translation>
     </message>
     <message>
-        <source>Privacy Action for zPOSQ and Obfuscation</source>
-        <translation>zPOSQ和混淆的隐私操作</translation>
+        <source>Privacy Action for zSMRTC and Obfuscation</source>
+        <translation>zSMRTC和混淆的隐私操作</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>浏览主节点</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>&amp;A关于Poseidon Core</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>&amp;A关于SmartCloud Core</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>显示Poseidon  Core的相关信息</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>显示SmartCloud  Core的相关信息</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>修改Poseidon的配置选项</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>修改SmartCloud的配置选项</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>使用您的Poseidon地址验证消息，以证明您拥有他们</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>使用您的SmartCloud地址验证消息，以证明您拥有他们</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>验证消息确保它已使用指定的Poseidon地址进行签名</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>验证消息确保它已使用指定的SmartCloud地址进行签名</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>打开主节点配置文件</translation>
     </message>
     <message>
-        <source>Open a Poseidon: URI or payment request</source>
-        <translation>打开Poseidon：URI或付款请求</translation>
+        <source>Open a SmartCloud: URI or payment request</source>
+        <translation>打开SmartCloud：URI或付款请求</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>区块浏览窗口</translation>
     </message>
     <message>
-        <source>Show the Poseidon Core help message to get a list with possible Poseidon command-line options</source>
-        <translation>显示Poseidon Core帮助信息并获取Poseidon命令行选项列表</translation>
+        <source>Show the SmartCloud Core help message to get a list with possible SmartCloud command-line options</source>
+        <translation>显示SmartCloud Core帮助信息并获取SmartCloud命令行选项列表</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Poseidon Core 客户端</translation>
+        <source>SmartCloud Core client</source>
+        <translation>SmartCloud Core 客户端</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Poseidon network</source>
-        <translation><numerusform>%n 活动连接到Poseidon网络
+        <source>%n active connection(s) to SmartCloud network</source>
+        <translation><numerusform>%n 活动连接到SmartCloud网络
 </numerusform></translation>
     </message>
     <message>
@@ -865,31 +865,31 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
-        <source>About Poseidon Core</source>
-        <translation>关于Poseidon Core</translation>
+        <source>About SmartCloud Core</source>
+        <translation>关于SmartCloud Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Welcome to Poseidon Core.</source>
-        <translation>欢迎使用 Poseidon Core</translation>
+        <source>Welcome to SmartCloud Core.</source>
+        <translation>欢迎使用 SmartCloud Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Poseidon Core will store its data.</source>
-        <translation>由于这是该程序第一次启动，您可以选择存储Poseidon Core 数据的位置。</translation>
+        <source>As this is the first time the program is launched, you can choose where SmartCloud Core will store its data.</source>
+        <translation>由于这是该程序第一次启动，您可以选择存储SmartCloud Core 数据的位置。</translation>
     </message>
     <message>
-        <source>Poseidon Core will download and store a copy of the Poseidon block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Poseidon Core将下载并存储Poseidon区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+        <source>SmartCloud Core will download and store a copy of the SmartCloud block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SmartCloud Core将下载并存储SmartCloud区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -971,16 +971,16 @@ Address: %4
         <translation>如果您要禁用未经确认发送，在至少有一个确认之前&lt;br/&gt;不能更改。&lt;br/&gt;这也将影响您的余额计算。</translation>
     </message>
     <message>
-        <source>Automatically open the Poseidon client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的Poseidon钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <source>Automatically open the SmartCloud client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动打开路由器上的SmartCloud钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;使用SOCKS5代理（默认代理）</translation>
     </message>
     <message>
-        <source>&amp;Start Poseidon on system login</source>
-        <translation>&amp;开机启动Poseidon</translation>
+        <source>&amp;Start SmartCloud on system login</source>
+        <translation>&amp;开机启动SmartCloud</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1040,7 +1040,7 @@ Address: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择显示发送Poseidon的默认单位。</translation>
+        <translation>选择显示发送SmartCloud的默认单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1118,8 +1118,8 @@ Address: %4
         <translation>您目前的支出余额</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与Poseidon网络同步，但此过程尚未完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与SmartCloud网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Your current total balance</source>
@@ -1139,8 +1139,8 @@ Address: %4
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与Poseidon网络同步，但此过程尚未完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与SmartCloud网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1227,12 +1227,12 @@ Address: %4
         <translation>&amp;消息：</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Poseidon network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过Poseidon网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SmartCloud network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过SmartCloud网络发送。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Poseidon network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过Poseidon网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SmartCloud network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过SmartCloud网络发送。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1367,8 +1367,8 @@ Address: %4
         <translation>消息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Poseidon: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Poseidon network.</source>
-        <translation>附加到Poseidon：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过Poseidon网络发送。</translation>
+        <source>A message that was attached to the SmartCloud: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SmartCloud network.</source>
+        <translation>附加到SmartCloud：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过SmartCloud网络发送。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1393,8 +1393,8 @@ Address: %4
         <translation>您可以使用地址签名消息，以证明您拥有他们。 小心不要签名任何您不了解的，因为网络钓鱼攻击可能会试图欺骗您，以让您签名。 只能签署您熟悉并且了解和同意的。</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>该Poseidon地址签名的消息</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>该SmartCloud地址签名的消息</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1421,16 +1421,16 @@ Address: %4
         <translation>将当前签名复制到系统剪贴板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>签署消息以证明您拥有此Poseidon地址</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>签署消息以证明您拥有此SmartCloud地址</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>由Poseidon地址签名的消息</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>由SmartCloud地址签名的消息</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>验证消息确保它已使用指定的Poseidon地址进行签名</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>验证消息确保它已使用指定的SmartCloud地址进行签名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1508,8 +1508,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     </context>
 <context>
@@ -1591,14 +1591,14 @@ Address: %4
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Poseidon Core will not work properly.</source>
-        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，Poseidon Core将无法正常工作。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SmartCloud Core will not work properly.</source>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，SmartCloud Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>

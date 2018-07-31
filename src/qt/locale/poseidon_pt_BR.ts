@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços Poseidon para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your SmartCloud addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços SmartCloud para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Poseidon addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços Poseidon para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your SmartCloud addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços SmartCloud para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>Poseidon will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your POSQs from being stolen by malware infecting your computer.</source>
-        <translation>Poseidon vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas POSQs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>SmartCloud will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SMRTCs from being stolen by malware infecting your computer.</source>
+        <translation>SmartCloud vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas SMRTCs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR POSQ&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS POSQ&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR SMRTC&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS SMRTC&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Poseidon Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a SmartCloud Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>O endereço Poseidon para assinar a mensagem</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>O endereço SmartCloud para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Poseidon</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SmartCloud</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +291,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>O endereço Poseidon que assinou a mensagem</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>O endereço SmartCloud que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Poseidon especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SmartCloud especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,16 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
-        <source>Send coins to a Poseidon address</source>
-        <translation>Enviar moedas para um endereço Poseidon</translation>
+        <source>Send coins to a SmartCloud address</source>
+        <translation>Enviar moedas para um endereço SmartCloud</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and poseidon: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e poseidon: URIs)</translation>
+        <source>Request payments (generates QR codes and smartcloud: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e smartcloud: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -606,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Poseidon Core</source>
-        <translation>&amp;Sobre o Poseidon Core</translation>
+        <source>&amp;About SmartCloud Core</source>
+        <translation>&amp;Sobre o SmartCloud Core</translation>
     </message>
     <message>
-        <source>Show information about Poseidon Core</source>
-        <translation>Mostra informação sobre o Poseidon Core</translation>
+        <source>Show information about SmartCloud Core</source>
+        <translation>Mostra informação sobre o SmartCloud Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Poseidon</source>
-        <translation>Modificar opções de configuração para Poseidon</translation>
+        <source>Modify configuration options for SmartCloud</source>
+        <translation>Modificar opções de configuração para SmartCloud</translation>
     </message>
     <message>
-        <source>Sign messages with your Poseidon addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços Poseidon para provar que você os detém</translation>
+        <source>Sign messages with your SmartCloud addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços SmartCloud para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Poseidon addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços Poseidon especificados</translation>
+        <source>Verify messages to ensure they were signed with specified SmartCloud addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços SmartCloud especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a Poseidon: URI or payment request</source>
-        <translation>Abrir um Poseidon: URI ou requisição de pagamento</translation>
+        <source>Open a SmartCloud: URI or payment request</source>
+        <translation>Abrir um SmartCloud: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the Poseidon Core help message to get a list with possible Poseidon command-line options</source>
-        <translation>Mostra a ajuda da Poseidon Core para receber uma lista com possíveis opções de linha de comando Poseidon</translation>
+        <source>Show the SmartCloud Core help message to get a list with possible SmartCloud command-line options</source>
+        <translation>Mostra a ajuda da SmartCloud Core para receber uma lista com possíveis opções de linha de comando SmartCloud</translation>
     </message>
     <message>
-        <source>Poseidon Core client</source>
-        <translation>Cliente Core Poseidon</translation>
+        <source>SmartCloud Core client</source>
+        <translation>Cliente Core SmartCloud</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -806,8 +806,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (poseidon.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (poseidon.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (smartcloud.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (smartcloud.conf). </translation>
     </message>
 </context>
 <context>
@@ -1083,8 +1083,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Poseidon address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de Poseidon</translation>
+        <source>The entered address "%1" is not a valid SmartCloud address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de SmartCloud</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1129,16 +1129,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Poseidon Core</source>
-        <translation>Sobre o Poseidon Core</translation>
+        <source>About SmartCloud Core</source>
+        <translation>Sobre o SmartCloud Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1172,16 +1172,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Poseidon Core.</source>
-        <translation>Bem-vindo ao Poseidon Core.</translation>
+        <source>Welcome to SmartCloud Core.</source>
+        <translation>Bem-vindo ao SmartCloud Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Poseidon Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde Poseidon Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where SmartCloud Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde SmartCloud Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>Poseidon Core will download and store a copy of the Poseidon block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Poseidon Core vai baixar e armazenar uma cópia da blockchain Poseidon. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>SmartCloud Core will download and store a copy of the SmartCloud block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SmartCloud Core vai baixar e armazenar uma cópia da blockchain SmartCloud. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1192,8 +1192,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1448,48 +1448,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 POSQ</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 SMRTC</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 SMRTC</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 POSQ</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 POSQ</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 SMRTC</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 SMRTC</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 POSQ to anonymize 10000 POSQ</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 POSQ para anonimizar 10000 POSQ</translation>
+        <source>This option is the quickest and will cost about ~0.025 SMRTC to anonymize 10000 SMRTC</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 SMRTC para anonimizar 10000 SMRTC</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 POSQ to anonymize 10000 POSQ</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 POSQ para anonimizar 10000 POSQ</translation>
+        <source>This option is moderately fast and will cost about 0.05 SMRTC to anonymize 10000 SMRTC</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 SMRTC para anonimizar 10000 SMRTC</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 POSQ per 10000 POSQ you anonymize.</source>
-        <translation>0.1 POSQ por 10000 POSQ que deixar anônima.</translation>
+        <source>0.1 SMRTC per 10000 SMRTC you anonymize.</source>
+        <translation>0.1 SMRTC por 10000 SMRTC que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Poseidon's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SmartCloud's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Poseidon's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SmartCloud's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Poseidon's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela Poseidon's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SmartCloud's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SmartCloud's.</translation>
     </message>
 </context>
 <context>
@@ -1542,8 +1542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the Poseidon client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente Poseidon no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the SmartCloud client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente SmartCloud no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1562,12 +1562,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Poseidon after logging in to the system.</source>
-        <translation>Iniciar automaticamente Poseidon depois de logar no sistema.</translation>
+        <source>Automatically start SmartCloud after logging in to the system.</source>
+        <translation>Iniciar automaticamente SmartCloud depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Poseidon on system login</source>
-        <translation>&amp;Iniciar Poseidon ao logar no sistema</translation>
+        <source>&amp;Start SmartCloud on system login</source>
+        <translation>&amp;Iniciar SmartCloud ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1582,18 +1582,18 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Poseidon.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do Poseidon.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SmartCloud.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do SmartCloud.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/poseidon-project/poseidon-project-translations</source>
+https://www.transifex.com/smartcloud-project/smartcloud-project-translations</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/poseidon-project/poseidon-project-translations</translation>
+https://www.transifex.com/smartcloud-project/smartcloud-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the Poseidon network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede Poseidon através de um proxy SOCKS5</translation>
+        <source>Connect to the SmartCloud network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede SmartCloud através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1727,8 +1727,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Poseidon após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede SmartCloud após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1816,8 +1816,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Poseidon network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede Poseidon após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SmartCloud network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede SmartCloud após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
@@ -1923,8 +1923,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a Poseidon address (e.g. %1)</source>
-        <translation>Insira um endereço Poseidon (e.g. %1)</translation>
+        <source>Enter a SmartCloud address (e.g. %1)</source>
+        <translation>Insira um endereço SmartCloud (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2173,8 +2173,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the Poseidon RPC console.</source>
-        <translation>Bem-vindo ao console da Poseidon RPC</translation>
+        <source>Welcome to the SmartCloud RPC console.</source>
+        <translation>Bem-vindo ao console da SmartCloud RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2425,8 +2425,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 POSQ</source>
-        <translation>0 POSQ</translation>
+        <source>0 SMRTC</source>
+        <translation>0 SMRTC</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2465,12 +2465,12 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPOSQs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPOSQs in fee,&lt;br /&gt;while "at least" pays 1000 uPOSQs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uPOSQs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uPOSQs em taxa,&lt;br /&gt; pagará pelo menos 1000 uPOSQs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uSMRTCs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uSMRTCs in fee,&lt;br /&gt;while "at least" pays 1000 uSMRTCs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uSMRTCs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uSMRTCs em taxa,&lt;br /&gt; pagará pelo menos 1000 uSMRTCs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Poseidon transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de Poseidon do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SmartCloud transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de SmartCloud do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2557,8 +2557,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid Poseidon address</source>
-        <translation>Aviso: endereço Poseidon inválido</translation>
+        <source>Warning: Invalid SmartCloud address</source>
+        <translation>Aviso: endereço SmartCloud inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2652,8 +2652,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The Poseidon address to send the payment to</source>
-        <translation>O endereço Poseidon para enviar o pagamento</translation>
+        <source>The SmartCloud address to send the payment to</source>
+        <translation>O endereço SmartCloud para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2715,8 +2715,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Poseidon Core is shutting down...</source>
-        <translation>Poseidon Core está desligando...</translation>
+        <source>SmartCloud Core is shutting down...</source>
+        <translation>SmartCloud Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2734,8 +2734,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The Poseidon address to sign the message with</source>
-        <translation>O endereço Poseidon para assinar a mensagem</translation>
+        <source>The SmartCloud address to sign the message with</source>
+        <translation>O endereço SmartCloud para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,16 +2766,16 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Poseidon address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço Poseidon</translation>
+        <source>Sign the message to prove you own this SmartCloud address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SmartCloud</translation>
     </message>
     <message>
-        <source>The Poseidon address the message was signed with</source>
-        <translation>O endereço Poseidon que assinou a mensagem</translation>
+        <source>The SmartCloud address the message was signed with</source>
+        <translation>O endereço SmartCloud que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Poseidon address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço Poseidon especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SmartCloud address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SmartCloud especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2857,8 +2857,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Poseidon Core</source>
-        <translation>Poseidon Core</translation>
+        <source>SmartCloud Core</source>
+        <translation>SmartCloud Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2873,8 +2873,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The Poseidon Core developers</source>
-        <translation>Os desenvolvedores do Poseidon Core</translation>
+        <source>The SmartCloud Core developers</source>
+        <translation>Os desenvolvedores do SmartCloud Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3357,8 +3357,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 POSQ.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 POSQ.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 SMRTC.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 SMRTC.</translation>
     </message>
 </context>
 <context>
@@ -3408,14 +3408,14 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
     </message>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all Poseidon specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas Poseidon (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all SmartCloud specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas SmartCloud (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3430,12 +3430,12 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em POSQ/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in SMRTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em SMRTC/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in POSQ/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em POSQ/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in SMRTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em SMRTC/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3458,8 +3458,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 POSQ.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 POSQ.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 SMRTC.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 SMRTC.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3474,8 +3474,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Poseidon Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core Poseidon não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SmartCloud Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core SmartCloud não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3554,8 +3554,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Poseidon Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do Poseidon Core</translation>
+        <source>Copyright (C) 2015-%i The SmartCloud Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do SmartCloud Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3606,8 +3606,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Poseidon Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da Poseidon Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SmartCloud Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da SmartCloud Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3646,8 +3646,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in POSQ/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em POSQ/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in SMRTC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em SMRTC/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4078,8 +4078,8 @@ https://www.transifex.com/poseidon-project/poseidon-project-translations</transl
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Poseidon Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o Poseidon Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart SmartCloud Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o SmartCloud Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

@@ -17,7 +17,7 @@ osx=false
 SIGNER=NULL
 VERSION=
 commit=false
-url=https://github.com/poseidondev/posq
+url=https://github.com/smartclouddev/smrtc
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=false
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the posq, gitian-builder, gitian.sigs, and poseidon-detached-sigs.
+Run this script from the directory containing the smrtc, gitian-builder, gitian.sigs, and smartcloud-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/poseidondev/posq
+-u|--url	Specify the URL of the repository. Default is https://github.com/smartclouddev/smrtc
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/poseidondev/gitian.sigs.git
-    git clone https://github.com/poseidondev/poseidon-detached-sigs.git
+    git clone https://github.com/smartclouddev/gitian.sigs.git
+    git clone https://github.com/smartclouddev/smartcloud-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./posq
+pushd ./smrtc
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./poseidon-binaries/${VERSION}
+	mkdir -p ./smartcloud-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../posq/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../smrtc/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit poseidon=${COMMIT} --url poseidon=${url} ../poseidon/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/poseidon-*.tar.gz build/out/src/poseidon-*.tar.gz ../poseidon-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smartcloud=${COMMIT} --url smartcloud=${url} ../smartcloud/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/smartcloud-*.tar.gz build/out/src/smartcloud-*.tar.gz ../smartcloud-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit poseidon=${COMMIT} --url poseidon=${url} ../poseidon/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/poseidon-*-win-unsigned.tar.gz inputs/poseidon-win-unsigned.tar.gz
-	    mv build/out/poseidon-*.zip build/out/poseidon-*.exe ../poseidon-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smartcloud=${COMMIT} --url smartcloud=${url} ../smartcloud/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/smartcloud-*-win-unsigned.tar.gz inputs/smartcloud-win-unsigned.tar.gz
+	    mv build/out/smartcloud-*.zip build/out/smartcloud-*.exe ../smartcloud-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit poseidon=${COMMIT} --url poseidon=${url} ../poseidon/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/poseidon-*-osx-unsigned.tar.gz inputs/poseidon-osx-unsigned.tar.gz
-	    mv build/out/poseidon-*.tar.gz build/out/poseidon-*.dmg ../poseidon-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smartcloud=${COMMIT} --url smartcloud=${url} ../smartcloud/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/smartcloud-*-osx-unsigned.tar.gz inputs/smartcloud-osx-unsigned.tar.gz
+	    mv build/out/smartcloud-*.tar.gz build/out/smartcloud-*.dmg ../smartcloud-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit poseidon=${COMMIT} --url poseidon=${url} ../poseidon/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/poseidon-*.tar.gz build/out/src/poseidon-*.tar.gz ../poseidon-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smartcloud=${COMMIT} --url smartcloud=${url} ../smartcloud/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/smartcloud-*.tar.gz build/out/src/smartcloud-*.tar.gz ../smartcloud-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../poseidon/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../smartcloud/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../poseidon/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../smartcloud/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../poseidon/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../smartcloud/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../poseidon/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../smartcloud/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../poseidon/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/poseidon-*win64-setup.exe ../poseidon-binaries/${VERSION}
-	    mv build/out/poseidon-*win32-setup.exe ../poseidon-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../smartcloud/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/smartcloud-*win64-setup.exe ../smartcloud-binaries/${VERSION}
+	    mv build/out/smartcloud-*win32-setup.exe ../smartcloud-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../poseidon/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/poseidon-osx-signed.dmg ../poseidon-binaries/${VERSION}/poseidon-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../smartcloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/smartcloud-osx-signed.dmg ../smartcloud-binaries/${VERSION}/smartcloud-${VERSION}-osx.dmg
 	fi
 	popd
 

@@ -38,12 +38,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_poseidon">res/icons/unit_poseidon.png</file>
-        <file alias="unit_mposeidon">res/icons/unit_mposeidon.png</file>
-        <file alias="unit_uposeidon">res/icons/unit_uposeidon.png</file>
-        <file alias="unit_tposeidon">res/icons/unit_tposeidon.png</file>
-        <file alias="unit_tmposeidon">res/icons/unit_tmposeidon.png</file>
-        <file alias="unit_tuposeidon">res/icons/unit_tuposeidon.png</file>
+        <file alias="unit_smartcloud">res/icons/unit_smartcloud.png</file>
+        <file alias="unit_msmartcloud">res/icons/unit_msmartcloud.png</file>
+        <file alias="unit_usmartcloud">res/icons/unit_usmartcloud.png</file>
+        <file alias="unit_tsmartcloud">res/icons/unit_tsmartcloud.png</file>
+        <file alias="unit_tmsmartcloud">res/icons/unit_tmsmartcloud.png</file>
+        <file alias="unit_tusmartcloud">res/icons/unit_tusmartcloud.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -59,7 +59,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="poseidon_logo_horizontal">res/images/poseidon_logo_horizontal.png</file>
+        <file alias="smartcloud_logo_horizontal">res/images/smartcloud_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

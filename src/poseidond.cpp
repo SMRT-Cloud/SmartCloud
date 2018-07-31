@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Poseidon developers
+// Copyright (c) 2017 The SmartCloud developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,8 +25,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Poseidon (http://www.poseidon.io),
- * which enables instant payments to anyone, anywhere in the world. Poseidon uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called SmartCloud (http://www.smartcloud.io),
+ * which enables instant payments to anyone, anywhere in the world. SmartCloud uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -65,18 +65,18 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/poseidon.conf are parsed in qt/poseidon.cpp's main()
+    // If Qt is used, parameters/smartcloud.conf are parsed in qt/smartcloud.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Poseidon Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("SmartCloud Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  poseidond [options]                     " + _("Start Poseidon Core Daemon") + "\n";
+                        "  smartcloudd [options]                     " + _("Start SmartCloud Core Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -112,17 +112,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "poseidon:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "smartcloud:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in poseidond anymore. Use the poseidon-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in smartcloudd anymore. Use the smartcloud-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Poseidon server starting\n");
+            fprintf(stdout, "SmartCloud server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -175,7 +175,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect poseidond signal handlers
+    // Connect smartcloudd signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

@@ -186,6 +186,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>poseidon-core</name>
+    <name>smartcloud-core</name>
     </context>
 </TS>
