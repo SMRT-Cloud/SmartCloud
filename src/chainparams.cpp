@@ -54,14 +54,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x000008338e9c80f35cf2a8fc508d3ca07c9b9353b0a42214c99cf784c3eecf88"))
-    (25290, uint256("0x757af2cc45c334897fbaef3555b61473f013a8797110430be229fd5f16bf12d9"))
-    (45650, uint256("0x0418b9b14e46d0a97bcadce1100291e8ab88ba6cf6eb8a55c072184bfc8bba93"))
-    (50600, uint256("0x0e492713c6890f92a7daab9a563116d725f5df8ed3c502e2cc1fcf132cc67dad"));
+    (0, uint256("0x882a9951bc9ffd0229f044e491b1d3daec53f7d29cdf4857c7e2907eaf30f932"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1517001474, // * UNIX timestamp of last checkpoint block
-    50600,    // * total number of transactions between genesis and last checkpoint
+    1533338977, // * UNIX timestamp of last checkpoint block
+    0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -103,13 +100,14 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x63;
-        pchMessageStart[1] = 0x43;
+        pchMessageStart[0] = 0x54; // from 63 posq
+        pchMessageStart[1] = 0x48; // from 43 posq
         pchMessageStart[2] = 0x49;
-        pchMessageStart[3] = 0x56;
-        vAlertPubKey = ParseHex("04bcbf5f4dab42002143f5b25a2e6fd658dd300508c0fd3c890edfa241edcdd224c9fb62d0a3e86ab655c384b598bd3e92d25fee84774060a0d461f0e9483587e5");
+        pchMessageStart[3] = 0x57; // from posq 56
+        vAlertPubKey = ParseHex("047f3dc11e937a81a13c84f3959927ed1cd4de72f3aeac13d398bbe92f0e948254af324d09aeb413ef38af01844b44b5d0b186505f479c02491c3173f5418709ba");
         nDefaultPort = 9887;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // SmartCloud starting difficulty is 1 / 2^12
+		bnProofOfWorkLimit = ~uint256(0) >> 1;
+        //bnProofOfWorkLimit = ~uint256(0) >> 20; // SmartCloud starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
@@ -121,7 +119,7 @@ public:
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 50000000 * COIN;
-
+		
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200;
         nModifierUpdateBlock = 999999999;
@@ -143,25 +141,27 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "The Guardian 08-02-2018 - SpaceX rocket set to overshoot Mars and hurtle towards asteroid belt";
+        const char* pszTimestamp = "Genesis of smart cloud, cloud storage for all!";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("142292b1f401860eea99e1a8a103effbd7e1c013a59a1a3a0c91c9d1997a0bc6f338567278c11344802838c107055bf7c1641eaed61e879245c255a4f5be5746fc") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("045bd0bdce28d24cd108384e178afeb2fc9b2d57407d47c7518b629645008afdfbe4639819892ae12958df1374589857914de1f7b3cfea3f73237e58a3ce6227af") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1517001474;
-        genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 754172;
+        genesis.nTime = 1533338977;
+        genesis.nBits = 504365040;
+        genesis.nNonce = 3638902;
 		
 		
+		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 		hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000008338e9c80f35cf2a8fc508d3ca07c9b9353b0a42214c99cf784c3eecf88"));
-        assert(genesis.hashMerkleRoot == uint256("0xa826da33af400d28f4883a2cc5776f63c8d205ac3b09ebf29ea3fddb23289a8e"));
+        assert(hashGenesisBlock == uint256("0x882a9951bc9ffd0229f044e491b1d3daec53f7d29cdf4857c7e2907eaf30f932"));
+        assert(genesis.hashMerkleRoot == uint256("0x73a57477554d8c6c49718b83cf600c9923194a615af8617288461336b298f884"));
 		
 		/* 
        if(genesis.GetHash() != hashGenesisBlock)
@@ -193,14 +193,8 @@ printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str
 	   }
 	   */
 
-		vSeeds.push_back(CDNSSeedData("smrtc.seeds.mn.zone", "smrtc.seeds.mn.zone")); // Primary DNS Seeder
-		vSeeds.push_back(CDNSSeedData("smrtc.mnseeds.com", "smrtc.mnseeds.com")); // Secondary DNS Seeder
-		vSeeds.push_back(CDNSSeedData("192.243.101.179", "192.243.101.179")); // Single node address
-		vSeeds.push_back(CDNSSeedData("192.243.103.201", "192.243.103.201")); // Single node address
-		vSeeds.push_back(CDNSSeedData("192.243.103.202", "192.243.103.202")); // Single node address
-		vSeeds.push_back(CDNSSeedData("207.246.95.9", "207.246.95.9")); // Single node address
-		
-		
+		vSeeds.push_back(CDNSSeedData("139.99.197.135", "139.99.197.135")); // Single node address
+				
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 58);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -223,9 +217,9 @@ printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "0459eede7626441f7802af2736cb3a4aeb3e1f95070cde39d068a4f16525ee8fdd3c075f29f9e115aeb91952239194aa6ac19765574fed8a0d7f174f2b450e9630";
+        strSporkKey = "0479e900c0e83a7a2b087a9d3fcec09d1ff239f696b055987220a9503d25f7d68178e08c076e51431c948b846a81ec5c12e1fed8c324b31deb546d517e9c9b627c";
         strObfuscationPoolDummyAddress = "SSQo21b24dD6AvQ2QyAfQFdBHTSw894tJb";
-        nStartMasternodePayments = 1516371317; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = 1533338977 ; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
         zerocoinModulus = "0xc95577b6dce0049b0a20c779af38079355abadde1a1d80c353f6cb697a7ae5a087bad39caa5798478551d0f9d91e6267716506f32412de1d19d17588765eb9502b85c6a18abdb05791cfd8b734e960281193705eeece210920cc922b3af3ceb178bf12c22eb565d5767fbf19545639be8953c2c38ffad41f3371e4aac750ac2d7bd614b3faabb453081d5d88fdbb803657a980bc93707e4b14233a2358c97763bf28f7c933206071477e8b371f229bc9ce7d6ef0ed7163aa5dfe13bc15f7816348b328fa2c1e69d5c88f7b94cee7829d56d1842d77d7bb8692e9fc7b7db059836500de8d57eb43c345feb58671503b932829112941367996b03871300f25efb5";
