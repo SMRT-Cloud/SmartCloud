@@ -448,7 +448,7 @@ smartcloudd_SOURCES = smartcloudd.cpp
 #
 
 if TARGET_WINDOWS
-smartcloudd_SOURCES += smartcloudd-res.rc
+smartcloudd_SOURCES += smartcloud-res.rc
 endif
 
 smartcloudd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
