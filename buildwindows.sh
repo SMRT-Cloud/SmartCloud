@@ -1,7 +1,7 @@
-sudo chmod 777 ./depends/config.*
 sudo apt update
 sudo apt upgrade
-sudo apt install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl git
+sudo apt install build-essential libtool autotools-dev automake pkg-config bsdmainutils curl sudo git
+sudo chmod 777 ./depends/config.*
 sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
 sudo apt-get install software-properties-common
