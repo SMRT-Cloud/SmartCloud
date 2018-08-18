@@ -54,10 +54,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x882a9951bc9ffd0229f044e491b1d3daec53f7d29cdf4857c7e2907eaf30f932"));
+    (0, uint256("0x000005f4fecc367663f5895fecf443a840add4ee35108b68b494e16b2d12ab49"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1533338977, // * UNIX timestamp of last checkpoint block
+    time: 1534564750, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -100,10 +100,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x54; // from 63 posq
-        pchMessageStart[1] = 0x48; // from 43 posq
-        pchMessageStart[2] = 0x49;
-        pchMessageStart[3] = 0x57; // from posq 56
+        pchMessageStart[0] = 0x53; // from 63 posq
+        pchMessageStart[1] = 0x46; // from 43 posq
+        pchMessageStart[2] = 0x44;
+        pchMessageStart[3] = 0x53; // from posq 56
         vAlertPubKey = ParseHex("047f3dc11e937a81a13c84f3959927ed1cd4de72f3aeac13d398bbe92f0e948254af324d09aeb413ef38af01844b44b5d0b186505f479c02491c3173f5418709ba");
         nDefaultPort = 9887;
 		bnProofOfWorkLimit = ~uint256(0) >> 1;
@@ -125,7 +125,7 @@ public:
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 201;
         nAccumulatorStartHeight = 1;
-        nZerocoinStartTime = 1517010000; // 20:30pm
+        nZerocoinStartTime = time: 1534564750; // 20:30pm
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -152,7 +152,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1533338977;
+        genesis.nTime = time: 1534564750;
         genesis.nBits = 504365040;
         genesis.nNonce = 3638902;
 		
@@ -160,8 +160,8 @@ public:
 		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 		hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x882a9951bc9ffd0229f044e491b1d3daec53f7d29cdf4857c7e2907eaf30f932"));
-        assert(genesis.hashMerkleRoot == uint256("0x73a57477554d8c6c49718b83cf600c9923194a615af8617288461336b298f884"));
+        assert(hashGenesisBlock == uint256("0x000005f4fecc367663f5895fecf443a840add4ee35108b68b494e16b2d12ab49"));
+        assert(genesis.hashMerkleRoot == uint256("0xa148f4b27e8b95a4d00536b84d1b819c35a82fe49ab28ddbf4358dbbb577754a"));
 		
 		/* 
        if(genesis.GetHash() != hashGenesisBlock)
@@ -193,7 +193,7 @@ printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str
 	   }
 	   */
 
-		vSeeds.push_back(CDNSSeedData("139.99.197.135", "139.99.197.135")); // Single node address
+		//vSeeds.push_back(CDNSSeedData("139.99.197.135", "139.99.197.135")); // Single node address
 				
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 58);
@@ -219,7 +219,7 @@ printf("genesis.hashMerkleRoot = %s \n", genesis.hashMerkleRoot.ToString().c_str
         nPoolMaxTransactions = 3;
         strSporkKey = "0479e900c0e83a7a2b087a9d3fcec09d1ff239f696b055987220a9503d25f7d68178e08c076e51431c948b846a81ec5c12e1fed8c324b31deb546d517e9c9b627c";
         strObfuscationPoolDummyAddress = "SSQo21b24dD6AvQ2QyAfQFdBHTSw894tJb";
-        nStartMasternodePayments = 1533338977 ; //Wed, 25 Jun 2014 20:36:16 GMT
+        nStartMasternodePayments = time: 1534564655 ; //Wed, 25 Jun 2014 20:36:16 GMT
 
         /** Zerocoin */
         zerocoinModulus = "0xc95577b6dce0049b0a20c779af38079355abadde1a1d80c353f6cb697a7ae5a087bad39caa5798478551d0f9d91e6267716506f32412de1d19d17588765eb9502b85c6a18abdb05791cfd8b734e960281193705eeece210920cc922b3af3ceb178bf12c22eb565d5767fbf19545639be8953c2c38ffad41f3371e4aac750ac2d7bd614b3faabb453081d5d88fdbb803657a980bc93707e4b14233a2358c97763bf28f7c933206071477e8b371f229bc9ce7d6ef0ed7163aa5dfe13bc15f7816348b328fa2c1e69d5c88f7b94cee7829d56d1842d77d7bb8692e9fc7b7db059836500de8d57eb43c345feb58671503b932829112941367996b03871300f25efb5";
